@@ -1,0 +1,13 @@
+Horodatage	Machine	Taux de production (u/min)	Température (°C)	Pression (bar)	Défauts détectés	Énergie consommée (kWh)
+2024-03-01 08:00	Soufflage	120	180	8.5	2	5.4
+2024-03-01 08:05	Carottage	110	175	7.8	1	4.9
+2024-03-01 08:10	Remplissage	130	20	6.5	0	6.1
+2024-03-01 08:15	Étiquetage	140	22	5.9	3	4.8
+2024-03-01 08:20	Soufflage	125	182	8.3	1	5.6
+2024-03-01 08:25	Carottage	108	176	7.6	2	4.7
+2024-03-01 08:30	Remplissage	132	21	6.7	0	6.0
+2024-03-01 08:35	Étiquetage	138	23	6.1	4	5.0
+2024-03-01 08:40	Soufflage	118	179	8.2	3	5.2
+2024-03-01 08:45	Carottage	112	177	7.9	2	4.8
+2024-03-01 08:50	Remplissage	129	20	6.4	1	5.9
+2024-03-01 08:55	Étiquetage	135	22	5.8	3	4.9
