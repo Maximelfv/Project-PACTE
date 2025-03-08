@@ -1,0 +1,13 @@
+body {
+    background-color: #8bea17;
+    font-family: Arial, sans-serif;
+}
+
+.app-div{
+    background-color: red;
+}
+
+.MachineDropDown{
+    background-color: blue;
+    width: 30%;
+}
