@@ -1,3 +1,4 @@
+"""
 import dash
 from dash import dcc, html
 
@@ -13,3 +14,4 @@ app.layout = html.Div([
 # Lancer l'application
 if __name__ == '__main__':
     app.run_server(debug=True, use_reloader=False)  # use_reloader=False pour éviter l'iframe dans Spyder
+"""
