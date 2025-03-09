@@ -15,3 +15,35 @@ def create_layout(app: Dash) -> html.Div:
             )
         ]
     )
+
+def menu_layout(app: Dash) -> html.Div:
+    return html.Div(
+        className="app-menu",
+        children=[
+            html.Ul(
+                children=[
+                    html.Li(
+                        children=[
+                            html.A(
+                                href="Machine_1",
+                                children="Machine 1"),
+                        ]
+                    ),
+                    html.Li(
+                        children=[
+                            html.A(
+                                href="Machine_1",
+                                children="Machine 1"),
+                        ]
+                    ),
+                    html.Li(
+                        children=[
+                            html.A(
+                                href="Machine_1",
+                                children="Machine 1"),
+                        ]
+                    )
+                ]
+            )
+        ]
+    )

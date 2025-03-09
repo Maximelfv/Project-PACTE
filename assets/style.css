@@ -1,13 +1,46 @@
 body {
     background-color: #8bea17;
     font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.Body{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: flex-start;
+    min-height: 600px;
+    width: 100%;
 }
 
 .app-div{
     background-color: red;
+    width: 90%;
+}
+
+.app-menu{
+    background-color: aqua;
+    width: 10%;
+
+}
+
+.app-menu ul{
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-evenly;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    align-items: center;
+}
+
+.app-menu a{
+    color: inherit;
 }
 
 .MachineDropDown{
     background-color: blue;
-    width: 30%;
+
 }
