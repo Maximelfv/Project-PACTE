@@ -32,23 +32,26 @@ def menu_layout(app: Dash) -> html.Div:
                 children=[
                     html.Li(
                         children=[
-                            html.A(
-                                href="Machine_1",
+                            html.Span(
+                                id="machine1",
+                                n_clicks=0,
                                 children="Machine 1"),
                         ]
                     ),
                     html.Li(
                         children=[
-                            html.A(
-                                href="Machine_1",
-                                children="Machine 1"),
+                            html.Span(
+                                id="machine2",
+                                n_clicks=0,
+                                children="Machine 2"),
                         ]
                     ),
                     html.Li(
                         children=[
-                            html.A(
-                                href="Machine_1",
-                                children="Machine 1"),
+                            html.Span(
+                                id="machine3",
+                                n_clicks=0,
+                                children="Machine 3"),
                         ]
                     )
                 ]
