@@ -1,12 +1,14 @@
 from dash import Dash, html
 
 from . import machine_dropdown
+from src.components import ids
 
 def header_layout(app: Dash) -> html.Header:
     return html.Header(
         className="app-header",
         children=[
             html.H1(app.title),
+            html.Img(src="assets/image/logo_HESTIM.png", alt="logo_hestim"),
             html.Hr()
         ]
     )
@@ -33,7 +35,7 @@ def menu_layout(app: Dash) -> html.Div:
                     html.Li(
                         children=[
                             html.Span(
-                                id="machine1",
+                                id=ids.MACHINE1,
                                 n_clicks=0,
                                 children="Machine 1"),
                         ]
@@ -41,7 +43,7 @@ def menu_layout(app: Dash) -> html.Div:
                     html.Li(
                         children=[
                             html.Span(
-                                id="machine2",
+                                id=ids.MACHINE2,
                                 n_clicks=0,
                                 children="Machine 2"),
                         ]
@@ -49,7 +51,7 @@ def menu_layout(app: Dash) -> html.Div:
                     html.Li(
                         children=[
                             html.Span(
-                                id="machine3",
+                                id=ids.MACHINE3,
                                 n_clicks=0,
                                 children="Machine 3"),
                         ]

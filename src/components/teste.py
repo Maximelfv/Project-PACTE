@@ -2,6 +2,8 @@ import dash
 from dash import Dash, html
 from dash.dependencies import Input,Output
 
+from src.components import ids
+
 
 
 def teste_section(app: Dash) -> html.Div:
@@ -15,9 +17,9 @@ def teste_section(app: Dash) -> html.Div:
 
     @app.callback(
     Output("output_teste", "children"),
-    Input("machine1", "n_clicks"),
-    Input("machine2", "n_clicks"),
-    Input("machine3", "n_clicks")
+    Input(ids.MACHINE1, "n_clicks"),
+    Input(ids.MACHINE2, "n_clicks"),
+    Input(ids.MACHINE3, "n_clicks")
     )
     def update_image_test(n1: int, n2: int, n3: int) -> html.Img:
         ctx = dash.callback_context  # Permet de voir quel élément a déclenché le callback
@@ -35,6 +37,6 @@ def teste_section(app: Dash) -> html.Div:
         )
            
     return html.Div(
-        id="output_teste",
+        id=ids.OUTPUT_TEST,
         
     )

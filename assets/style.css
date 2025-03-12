@@ -19,6 +19,22 @@ div{
 
 .app-header{
     background-color: purple;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 0px 10px;
+}
+
+.app-header hr{
+    grid-column: span 2;
+    grid-row: 2 / 3;
+    width: 90%;
+    border: 2px solid ;
+}
+
+.app-header img{
+    grid-column: 2 / 3;
+    justify-self: end;
 }
 
 
@@ -68,6 +84,8 @@ div{
 
 .interface-title{
     background-color: orange;
+    display: flex;
+    justify-content: center;
 }
 
 

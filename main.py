@@ -2,11 +2,13 @@ from dash import Dash, html
 
 from src.components.layout import body_layout, header_layout
 from src.components.teste import teste_section
+from src.components import ids
 
 def main() -> None:
     app = Dash()
     app.title = "Projet PACTE - Tableau de bord"
     app.layout = html.Div(
+        id=ids.PROJET_PACTE,
         className= "PACTE-Projet",
         children=[
             header_layout(app),
