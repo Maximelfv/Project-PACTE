@@ -1,0 +1,10 @@
+#18534F : Vert Bleu
+ 
+#226D68 : Bleu cyan
+ 
+#ECF8F6 : blanc neige
+ 
+#FEEAA1 : beige
+ 
+#D6955B : marron clair
+ 
