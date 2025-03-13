@@ -1,4 +1,5 @@
-from dash import Dash, html
+from dash import Dash, html, dcc
+import plotly.express as px 
 
 from . import machine_dropdown
 from src.components import ids
@@ -102,6 +103,13 @@ def interface_graph(app: Dash) -> html.Div:
             html.H4("graph 1"),
             html.H4("graph 2"),
             html.H4("graph 3"),
-            html.H4("graph 4"),
+            html.Div(
+                children=[
+                    html.H4("graph 4"),
+                    dcc.Graph(
+                        figure=px.bar(px.data.medals_long(), x="medal", y="count", color="nation", text="nation")
+                    )
+                ]
+            )
         ]
     )
