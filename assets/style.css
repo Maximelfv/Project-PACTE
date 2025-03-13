@@ -1,13 +1,129 @@
 body {
-    background-color: #8bea17;
+    background-color: turquoise;
     font-family: Arial, sans-serif;
+    margin: 1px 1px 1px 1px;
+    padding: 1px 1px 1px 1px;
 }
 
-.app-div{
+div{
+    margin: 5px;
+    padding: 5px;
+}
+
+/*                 Partie Python                   */
+
+.PACTE-Projet{
+    background-color: beige;
+}
+
+
+.app-header{
+    background-color: purple;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 0px 10px;
+}
+
+.app-header hr{
+    grid-column: span 2;
+    grid-row: 2 / 3;
+    width: 90%;
+    border: 2px solid ;
+}
+
+.app-header img{
+    grid-column: 2 / 3;
+    justify-self: end;
+}
+
+
+.app-body{
+    background-color: yellow;
+    display: flex;
+    justify-content: flex-start;
+    min-height: 600px;
+    width: 100%;
+}
+
+/* Style du menu */
+
+.app-menu{
+    background-color: blue;
+    width: 10%;
+}
+
+
+.app-menu ul{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-evenly;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    align-items: center;
+}
+
+.app-menu ul li{
+    background-color: darkblue;
+}
+
+.app-menu a{
+    color: inherit;
+}
+
+/*   Style de l'interface */
+
+.app-interface{
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+    width: 90%;
+}
+
+.interface-title{
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+}
+
+
+.interface-global-information{
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.interface-graph{
+    background-color: orange;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    flex-grow: 1;
+}
+
+.interface-graph h4{
     background-color: red;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .MachineDropDown{
-    background-color: blue;
-    width: 30%;
+    background-color: black;
+
 }
