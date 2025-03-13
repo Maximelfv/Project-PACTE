@@ -1,0 +1,1001 @@
+Horodatage;Machine;Taux de production (u/min);Température (°C);Pression (bar);Défauts détectés;Énergie Consommée (kWh)
+2024-03-01 08:00;Carottage;113;4.9;6.2;Rayures (1%);2.77
+2024-03-01 08:05;Carottage;148;7.0;4.5;Fuites (1.5%);1.13
+2024-03-01 08:10;Carottage;105;6.3;6.4;Déformation (1%);1.18
+2024-03-01 08:15;Étiquetage;119;7.0;6.8;Aucun;2.9
+2024-03-01 08:20;Remplissage;145;7.4;5.1;Déformation (1%);1.34
+2024-03-01 08:25;Soufflage;114;6.2;6.4;Bulles d'air (2%);1.82
+2024-03-01 08:30;Étiquetage;124;7.1;7.4;Déformation (1%);2.78
+2024-03-01 08:35;Carottage;112;4.5;6.1;Déformation (1%);1.44
+2024-03-01 08:40;Carottage;108;5.0;6.0;Bulles d'air (2%);1.82
+2024-03-01 08:45;Soufflage;121;6.7;4.9;Rayures (1%);2.02
+2024-03-01 08:50;Remplissage;123;4.7;6.2;Fuites (1.5%);1.12
+2024-03-01 08:55;Étiquetage;103;4.7;5.0;Mauvais alignement (0.8%);1.57
+2024-03-01 09:00;Étiquetage;115;5.1;7.8;Aucun;1.52
+2024-03-01 09:05;Étiquetage;101;5.4;7.1;Mauvais alignement (0.8%);2.79
+2024-03-01 09:10;Carottage;142;6.8;5.4;Mauvais alignement (0.8%);2.0
+2024-03-01 09:15;Carottage;145;5.9;4.9;Bulles d'air (2%);2.06
+2024-03-01 09:20;Soufflage;133;5.3;5.7;Aucun;2.0
+2024-03-01 09:25;Étiquetage;103;5.3;6.8;Fuites (1.5%);1.98
+2024-03-01 09:30;Soufflage;131;6.1;7.3;Fuites (1.5%);1.06
+2024-03-01 09:35;Carottage;101;6.6;6.0;Bulles d'air (2%);1.23
+2024-03-01 09:40;Soufflage;120;4.9;5.1;Fuites (1.5%);2.57
+2024-03-01 09:45;Étiquetage;105;7.5;4.6;Mauvais alignement (0.8%);1.96
+2024-03-01 09:50;Soufflage;108;7.0;5.9;Bulles d'air (2%);2.92
+2024-03-01 09:55;Étiquetage;144;7.2;4.8;Déformation (1%);2.89
+2024-03-01 10:00;Soufflage;112;5.0;6.7;Aucun;2.07
+2024-03-01 10:05;Étiquetage;141;5.8;5.8;Mauvais alignement (0.8%);1.45
+2024-03-01 10:10;Remplissage;150;7.2;5.3;Mauvais alignement (0.8%);2.38
+2024-03-01 10:15;Remplissage;113;4.5;6.2;Aucun;1.59
+2024-03-01 10:20;Soufflage;122;6.7;5.0;Mauvais alignement (0.8%);2.61
+2024-03-01 10:25;Carottage;137;6.0;8.0;Rayures (1%);2.06
+2024-03-01 10:30;Étiquetage;104;6.3;5.4;Bulles d'air (2%);1.17
+2024-03-01 10:35;Remplissage;119;4.6;6.5;Aucun;2.95
+2024-03-01 10:40;Carottage;137;5.1;7.0;Déformation (1%);2.11
+2024-03-01 10:45;Carottage;111;5.8;5.5;Rayures (1%);2.44
+2024-03-01 10:50;Remplissage;127;4.7;6.7;Mauvais alignement (0.8%);1.26
+2024-03-01 10:55;Soufflage;110;6.8;5.0;Fuites (1.5%);1.91
+2024-03-01 11:00;Remplissage;104;5.5;8.3;Rayures (1%);1.92
+2024-03-01 11:05;Soufflage;143;4.9;7.4;Fuites (1.5%);1.93
+2024-03-01 11:10;Carottage;144;6.4;7.8;Mauvais alignement (0.8%);2.54
+2024-03-01 11:15;Carottage;112;6.8;8.4;Fuites (1.5%);2.83
+2024-03-01 11:20;Soufflage;149;4.7;7.1;Aucun;1.01
+2024-03-01 11:25;Soufflage;108;6.8;8.5;Déformation (1%);1.75
+2024-03-01 11:30;Remplissage;124;5.0;6.5;Déformation (1%);1.5
+2024-03-01 11:35;Étiquetage;120;7.2;7.7;Aucun;1.91
+2024-03-01 11:40;Remplissage;138;5.7;7.2;Déformation (1%);1.76
+2024-03-01 11:45;Remplissage;109;6.7;5.6;Déformation (1%);2.55
+2024-03-01 11:50;Soufflage;124;7.4;6.4;Aucun;2.26
+2024-03-01 11:55;Étiquetage;147;7.5;8.1;Bulles d'air (2%);1.8
+2024-03-01 12:00;Carottage;134;6.0;8.3;Déformation (1%);2.38
+2024-03-01 12:05;Étiquetage;121;7.3;5.7;Aucun;2.52
+2024-03-01 12:10;Soufflage;102;4.6;8.0;Déformation (1%);2.47
+2024-03-01 12:15;Étiquetage;119;7.2;6.4;Bulles d'air (2%);2.18
+2024-03-01 12:20;Carottage;145;6.2;8.2;Aucun;2.81
+2024-03-01 12:25;Carottage;120;5.0;7.5;Fuites (1.5%);1.14
+2024-03-01 12:30;Étiquetage;130;6.3;8.1;Bulles d'air (2%);1.75
+2024-03-01 12:35;Soufflage;107;5.8;5.5;Rayures (1%);1.16
+2024-03-01 12:40;Étiquetage;143;5.2;7.9;Aucun;2.63
+2024-03-01 12:45;Étiquetage;106;7.4;7.8;Déformation (1%);1.27
+2024-03-01 12:50;Étiquetage;118;6.5;5.3;Bulles d'air (2%);2.51
+2024-03-01 12:55;Soufflage;147;6.6;5.1;Mauvais alignement (0.8%);1.27
+2024-03-01 13:00;Carottage;143;7.4;7.5;Fuites (1.5%);1.27
+2024-03-01 13:05;Soufflage;124;6.4;6.1;Aucun;1.54
+2024-03-01 13:10;Étiquetage;107;7.3;5.2;Fuites (1.5%);2.7
+2024-03-01 13:15;Remplissage;129;5.3;8.3;Bulles d'air (2%);1.75
+2024-03-01 13:20;Remplissage;127;5.2;4.7;Bulles d'air (2%);1.18
+2024-03-01 13:25;Étiquetage;111;5.1;6.8;Aucun;2.12
+2024-03-01 13:30;Remplissage;116;5.8;5.8;Fuites (1.5%);1.43
+2024-03-01 13:35;Remplissage;134;6.5;6.6;Déformation (1%);2.94
+2024-03-01 13:40;Étiquetage;122;6.9;6.7;Bulles d'air (2%);1.93
+2024-03-01 13:45;Soufflage;141;6.9;7.9;Déformation (1%);1.43
+2024-03-01 13:50;Carottage;123;4.8;5.0;Bulles d'air (2%);2.64
+2024-03-01 13:55;Remplissage;141;7.4;5.9;Bulles d'air (2%);1.8
+2024-03-01 14:00;Étiquetage;147;5.6;8.1;Bulles d'air (2%);1.29
+2024-03-01 14:05;Étiquetage;116;6.8;8.2;Aucun;1.23
+2024-03-01 14:10;Soufflage;143;6.0;6.9;Aucun;2.32
+2024-03-01 14:15;Carottage;127;5.4;4.9;Déformation (1%);2.32
+2024-03-01 14:20;Soufflage;135;7.1;5.5;Mauvais alignement (0.8%);2.12
+2024-03-01 14:25;Étiquetage;103;7.0;7.7;Rayures (1%);2.26
+2024-03-01 14:30;Remplissage;124;4.9;5.4;Mauvais alignement (0.8%);1.99
+2024-03-01 14:35;Soufflage;148;7.2;7.7;Mauvais alignement (0.8%);1.81
+2024-03-01 14:40;Remplissage;127;5.9;5.5;Aucun;2.25
+2024-03-01 14:45;Remplissage;141;7.3;7.3;Mauvais alignement (0.8%);3.0
+2024-03-01 14:50;Carottage;112;5.8;7.0;Fuites (1.5%);1.88
+2024-03-01 14:55;Remplissage;105;5.0;5.6;Aucun;1.72
+2024-03-01 15:00;Remplissage;103;4.9;6.2;Mauvais alignement (0.8%);1.2
+2024-03-01 15:05;Étiquetage;133;6.3;5.3;Rayures (1%);2.15
+2024-03-01 15:10;Carottage;131;5.9;5.2;Aucun;1.43
+2024-03-01 15:15;Soufflage;106;5.2;4.7;Déformation (1%);2.79
+2024-03-01 15:20;Soufflage;143;5.6;7.4;Bulles d'air (2%);1.94
+2024-03-01 15:25;Soufflage;131;6.3;6.5;Bulles d'air (2%);1.57
+2024-03-01 15:30;Carottage;124;5.3;5.5;Déformation (1%);1.56
+2024-03-01 15:35;Soufflage;138;5.3;8.1;Bulles d'air (2%);2.25
+2024-03-01 15:40;Étiquetage;100;6.1;6.2;Mauvais alignement (0.8%);2.47
+2024-03-01 15:45;Soufflage;118;7.1;8.4;Aucun;1.16
+2024-03-01 15:50;Remplissage;122;4.6;4.6;Fuites (1.5%);1.8
+2024-03-01 15:55;Carottage;150;5.5;7.6;Fuites (1.5%);1.78
+2024-03-01 16:00;Étiquetage;126;5.4;4.6;Aucun;2.16
+2024-03-01 16:05;Soufflage;126;7.3;6.1;Bulles d'air (2%);1.8
+2024-03-01 16:10;Remplissage;150;7.0;5.9;Mauvais alignement (0.8%);2.59
+2024-03-01 16:15;Remplissage;100;5.1;5.7;Fuites (1.5%);1.06
+2024-03-01 16:20;Étiquetage;105;7.3;6.1;Bulles d'air (2%);1.58
+2024-03-01 16:25;Carottage;147;5.5;5.6;Déformation (1%);2.22
+2024-03-01 16:30;Étiquetage;129;6.0;6.7;Fuites (1.5%);2.23
+2024-03-01 16:35;Étiquetage;131;6.8;8.0;Aucun;1.7
+2024-03-01 16:40;Soufflage;106;4.7;6.8;Mauvais alignement (0.8%);1.98
+2024-03-01 16:45;Soufflage;104;6.5;7.5;Déformation (1%);2.32
+2024-03-01 16:50;Carottage;116;5.2;7.4;Fuites (1.5%);1.23
+2024-03-01 16:55;Étiquetage;132;5.7;6.4;Fuites (1.5%);1.08
+2024-03-01 17:00;Étiquetage;100;7.4;7.0;Rayures (1%);2.88
+2024-03-01 17:05;Étiquetage;142;4.8;7.3;Déformation (1%);1.37
+2024-03-01 17:10;Étiquetage;110;6.0;7.7;Bulles d'air (2%);2.03
+2024-03-01 17:15;Soufflage;115;7.2;4.6;Déformation (1%);2.98
+2024-03-01 17:20;Soufflage;137;6.6;7.9;Mauvais alignement (0.8%);2.41
+2024-03-01 17:25;Remplissage;129;7.5;5.4;Bulles d'air (2%);2.63
+2024-03-01 17:30;Remplissage;104;5.7;6.2;Bulles d'air (2%);2.12
+2024-03-01 17:35;Remplissage;141;6.8;5.1;Rayures (1%);2.8
+2024-03-01 17:40;Remplissage;140;6.9;4.8;Aucun;1.31
+2024-03-01 17:45;Soufflage;123;4.6;5.5;Bulles d'air (2%);2.64
+2024-03-01 17:50;Carottage;129;6.1;7.4;Aucun;2.79
+2024-03-01 17:55;Remplissage;102;6.3;6.9;Déformation (1%);2.38
+2024-03-01 18:00;Étiquetage;110;5.3;6.1;Mauvais alignement (0.8%);2.23
+2024-03-01 18:05;Étiquetage;101;7.2;5.9;Mauvais alignement (0.8%);2.33
+2024-03-01 18:10;Étiquetage;147;7.0;7.7;Bulles d'air (2%);1.3
+2024-03-01 18:15;Étiquetage;144;5.8;4.6;Bulles d'air (2%);2.7
+2024-03-01 18:20;Étiquetage;119;4.8;4.8;Bulles d'air (2%);2.52
+2024-03-01 18:25;Soufflage;134;6.6;6.9;Déformation (1%);1.29
+2024-03-01 18:30;Remplissage;143;5.8;7.7;Déformation (1%);2.8
+2024-03-01 18:35;Soufflage;144;5.0;7.8;Fuites (1.5%);1.36
+2024-03-01 18:40;Carottage;111;7.2;7.8;Rayures (1%);1.11
+2024-03-01 18:45;Remplissage;115;6.4;7.1;Bulles d'air (2%);2.23
+2024-03-01 18:50;Remplissage;126;5.4;4.6;Aucun;1.42
+2024-03-01 18:55;Carottage;116;5.0;5.6;Mauvais alignement (0.8%);1.19
+2024-03-01 19:00;Étiquetage;109;6.0;8.0;Fuites (1.5%);1.66
+2024-03-01 19:05;Remplissage;150;7.4;5.1;Rayures (1%);1.94
+2024-03-01 19:10;Remplissage;115;6.0;6.8;Déformation (1%);2.45
+2024-03-01 19:15;Soufflage;114;7.0;7.6;Déformation (1%);2.72
+2024-03-01 19:20;Soufflage;111;5.1;6.6;Déformation (1%);2.69
+2024-03-01 19:25;Remplissage;132;5.6;6.6;Aucun;1.23
+2024-03-01 19:30;Remplissage;121;5.4;6.1;Bulles d'air (2%);2.07
+2024-03-01 19:35;Carottage;134;4.9;4.6;Fuites (1.5%);1.67
+2024-03-01 19:40;Étiquetage;101;7.1;5.1;Bulles d'air (2%);1.42
+2024-03-01 19:45;Remplissage;148;6.1;8.4;Mauvais alignement (0.8%);1.58
+2024-03-01 19:50;Remplissage;103;6.8;5.2;Rayures (1%);1.83
+2024-03-01 19:55;Remplissage;135;6.1;6.8;Déformation (1%);1.08
+2024-03-01 20:00;Soufflage;132;7.5;5.8;Aucun;2.63
+2024-03-01 20:05;Remplissage;112;5.7;5.3;Fuites (1.5%);2.07
+2024-03-01 20:10;Remplissage;144;6.6;4.9;Fuites (1.5%);2.68
+2024-03-01 20:15;Remplissage;104;4.8;6.2;Rayures (1%);1.56
+2024-03-01 20:20;Remplissage;143;4.9;7.1;Aucun;1.17
+2024-03-01 20:25;Soufflage;121;6.0;6.4;Rayures (1%);1.71
+2024-03-01 20:30;Carottage;129;6.2;8.2;Fuites (1.5%);1.32
+2024-03-01 20:35;Carottage;142;7.5;6.7;Rayures (1%);1.65
+2024-03-01 20:40;Remplissage;120;6.5;5.1;Mauvais alignement (0.8%);1.8
+2024-03-01 20:45;Soufflage;119;4.8;6.8;Bulles d'air (2%);2.9
+2024-03-01 20:50;Carottage;139;7.2;5.3;Déformation (1%);1.52
+2024-03-01 20:55;Remplissage;101;7.1;8.2;Fuites (1.5%);1.2
+2024-03-01 21:00;Remplissage;149;4.9;6.9;Mauvais alignement (0.8%);1.38
+2024-03-01 21:05;Étiquetage;100;5.6;5.9;Déformation (1%);1.68
+2024-03-01 21:10;Étiquetage;131;6.1;8.4;Fuites (1.5%);1.42
+2024-03-01 21:15;Remplissage;120;6.8;5.3;Bulles d'air (2%);2.52
+2024-03-01 21:20;Remplissage;129;5.2;8.4;Mauvais alignement (0.8%);1.7
+2024-03-01 21:25;Remplissage;149;6.6;6.3;Bulles d'air (2%);1.47
+2024-03-01 21:30;Soufflage;112;6.6;7.4;Fuites (1.5%);1.3
+2024-03-01 21:35;Étiquetage;102;6.6;5.3;Mauvais alignement (0.8%);2.4
+2024-03-01 21:40;Remplissage;120;6.7;7.8;Fuites (1.5%);2.81
+2024-03-01 21:45;Remplissage;143;5.1;7.6;Fuites (1.5%);1.71
+2024-03-01 21:50;Carottage;102;5.3;4.6;Fuites (1.5%);1.25
+2024-03-01 21:55;Soufflage;122;6.8;8.2;Fuites (1.5%);2.92
+2024-03-01 22:00;Carottage;106;5.9;7.1;Déformation (1%);1.36
+2024-03-01 22:05;Carottage;112;7.4;7.8;Aucun;1.84
+2024-03-01 22:10;Soufflage;107;6.7;5.9;Aucun;2.19
+2024-03-01 22:15;Étiquetage;104;6.3;5.8;Déformation (1%);1.37
+2024-03-01 22:20;Étiquetage;149;6.0;5.7;Bulles d'air (2%);1.89
+2024-03-01 22:25;Carottage;140;5.0;8.1;Fuites (1.5%);1.83
+2024-03-01 22:30;Carottage;111;6.2;8.0;Déformation (1%);1.13
+2024-03-01 22:35;Étiquetage;115;5.5;8.2;Aucun;2.36
+2024-03-01 22:40;Soufflage;140;6.9;7.0;Mauvais alignement (0.8%);1.89
+2024-03-01 22:45;Remplissage;102;5.4;4.8;Fuites (1.5%);1.09
+2024-03-01 22:50;Carottage;144;6.8;5.5;Bulles d'air (2%);1.98
+2024-03-01 22:55;Carottage;150;6.8;6.2;Fuites (1.5%);2.15
+2024-03-01 23:00;Étiquetage;109;5.5;7.4;Rayures (1%);2.1
+2024-03-01 23:05;Carottage;124;5.7;6.0;Bulles d'air (2%);1.79
+2024-03-01 23:10;Carottage;143;5.7;7.7;Aucun;1.25
+2024-03-01 23:15;Étiquetage;113;5.0;6.7;Fuites (1.5%);2.16
+2024-03-01 23:20;Remplissage;133;7.1;8.0;Rayures (1%);2.47
+2024-03-01 23:25;Étiquetage;147;4.5;6.0;Bulles d'air (2%);2.87
+2024-03-01 23:30;Étiquetage;123;7.5;7.8;Bulles d'air (2%);1.29
+2024-03-01 23:35;Soufflage;121;6.1;5.6;Mauvais alignement (0.8%);2.07
+2024-03-01 23:40;Remplissage;150;5.2;6.5;Déformation (1%);1.16
+2024-03-01 23:45;Remplissage;104;4.6;7.1;Rayures (1%);1.47
+2024-03-01 23:50;Soufflage;115;7.1;7.2;Déformation (1%);1.46
+2024-03-01 23:55;Remplissage;103;5.8;5.3;Rayures (1%);1.03
+2024-03-02 00:00;Remplissage;131;5.6;7.6;Déformation (1%);2.87
+2024-03-02 00:05;Remplissage;149;5.5;7.4;Aucun;2.96
+2024-03-02 00:10;Soufflage;107;4.5;5.2;Bulles d'air (2%);1.39
+2024-03-02 00:15;Étiquetage;136;6.1;7.4;Déformation (1%);1.01
+2024-03-02 00:20;Soufflage;148;6.7;7.4;Mauvais alignement (0.8%);1.15
+2024-03-02 00:25;Étiquetage;136;5.2;8.3;Mauvais alignement (0.8%);1.45
+2024-03-02 00:30;Étiquetage;105;5.3;5.1;Déformation (1%);2.75
+2024-03-02 00:35;Soufflage;112;7.5;5.3;Déformation (1%);1.91
+2024-03-02 00:40;Carottage;118;7.4;6.1;Bulles d'air (2%);1.72
+2024-03-02 00:45;Étiquetage;108;4.7;4.6;Fuites (1.5%);2.25
+2024-03-02 00:50;Carottage;124;7.1;8.5;Bulles d'air (2%);2.94
+2024-03-02 00:55;Carottage;114;6.7;6.3;Aucun;1.26
+2024-03-02 01:00;Remplissage;141;6.9;6.5;Rayures (1%);1.14
+2024-03-02 01:05;Remplissage;104;4.6;5.7;Rayures (1%);1.58
+2024-03-02 01:10;Remplissage;132;6.2;6.1;Déformation (1%);2.52
+2024-03-02 01:15;Soufflage;133;6.4;7.7;Mauvais alignement (0.8%);2.21
+2024-03-02 01:20;Étiquetage;123;5.2;4.5;Bulles d'air (2%);1.47
+2024-03-02 01:25;Carottage;104;7.3;5.3;Fuites (1.5%);2.87
+2024-03-02 01:30;Remplissage;127;6.8;8.2;Aucun;1.1
+2024-03-02 01:35;Remplissage;110;6.0;7.9;Déformation (1%);1.31
+2024-03-02 01:40;Carottage;126;6.4;6.7;Déformation (1%);2.29
+2024-03-02 01:45;Remplissage;114;5.2;8.2;Rayures (1%);2.19
+2024-03-02 01:50;Carottage;114;4.6;6.5;Fuites (1.5%);1.25
+2024-03-02 01:55;Carottage;125;5.9;6.6;Aucun;1.32
+2024-03-02 02:00;Carottage;145;5.0;5.4;Déformation (1%);1.71
+2024-03-02 02:05;Étiquetage;133;7.0;8.1;Mauvais alignement (0.8%);2.83
+2024-03-02 02:10;Remplissage;108;6.5;6.0;Bulles d'air (2%);2.59
+2024-03-02 02:15;Étiquetage;117;7.5;4.8;Rayures (1%);1.35
+2024-03-02 02:20;Soufflage;147;7.2;5.7;Aucun;1.67
+2024-03-02 02:25;Soufflage;141;6.9;8.1;Fuites (1.5%);2.5
+2024-03-02 02:30;Étiquetage;101;4.5;4.5;Bulles d'air (2%);1.46
+2024-03-02 02:35;Remplissage;119;5.1;7.9;Bulles d'air (2%);2.91
+2024-03-02 02:40;Soufflage;118;5.9;4.8;Bulles d'air (2%);1.0
+2024-03-02 02:45;Carottage;102;5.3;7.8;Fuites (1.5%);1.71
+2024-03-02 02:50;Remplissage;107;4.6;6.3;Fuites (1.5%);1.45
+2024-03-02 02:55;Remplissage;142;6.6;7.9;Bulles d'air (2%);1.55
+2024-03-02 03:00;Soufflage;101;5.3;6.0;Aucun;2.31
+2024-03-02 03:05;Remplissage;106;7.0;5.3;Déformation (1%);1.78
+2024-03-02 03:10;Remplissage;142;7.2;4.7;Mauvais alignement (0.8%);2.67
+2024-03-02 03:15;Soufflage;147;5.2;8.1;Mauvais alignement (0.8%);2.29
+2024-03-02 03:20;Remplissage;102;5.8;7.0;Déformation (1%);1.25
+2024-03-02 03:25;Remplissage;109;5.1;5.8;Déformation (1%);1.81
+2024-03-02 03:30;Carottage;116;7.3;6.3;Bulles d'air (2%);2.65
+2024-03-02 03:35;Remplissage;126;5.9;6.4;Mauvais alignement (0.8%);2.72
+2024-03-02 03:40;Étiquetage;120;6.6;8.0;Mauvais alignement (0.8%);2.02
+2024-03-02 03:45;Étiquetage;141;5.6;4.9;Bulles d'air (2%);1.71
+2024-03-02 03:50;Étiquetage;113;4.9;4.6;Mauvais alignement (0.8%);1.54
+2024-03-02 03:55;Soufflage;120;4.8;5.3;Déformation (1%);1.91
+2024-03-02 04:00;Remplissage;129;4.6;5.9;Aucun;1.81
+2024-03-02 04:05;Étiquetage;148;6.2;8.5;Déformation (1%);1.37
+2024-03-02 04:10;Soufflage;115;6.3;4.6;Bulles d'air (2%);1.5
+2024-03-02 04:15;Étiquetage;120;5.7;8.0;Bulles d'air (2%);1.47
+2024-03-02 04:20;Soufflage;100;5.4;6.1;Fuites (1.5%);2.3
+2024-03-02 04:25;Remplissage;146;6.6;5.7;Fuites (1.5%);1.88
+2024-03-02 04:30;Remplissage;131;5.9;4.7;Mauvais alignement (0.8%);2.15
+2024-03-02 04:35;Remplissage;129;4.7;5.7;Déformation (1%);1.11
+2024-03-02 04:40;Soufflage;134;5.8;5.2;Déformation (1%);2.14
+2024-03-02 04:45;Étiquetage;121;5.4;8.1;Déformation (1%);1.33
+2024-03-02 04:50;Soufflage;131;7.4;8.0;Fuites (1.5%);1.7
+2024-03-02 04:55;Soufflage;136;5.6;6.6;Aucun;1.47
+2024-03-02 05:00;Étiquetage;145;5.5;5.6;Rayures (1%);1.26
+2024-03-02 05:05;Soufflage;101;4.9;8.2;Aucun;1.3
+2024-03-02 05:10;Étiquetage;112;4.8;4.6;Fuites (1.5%);2.23
+2024-03-02 05:15;Carottage;141;4.6;6.8;Mauvais alignement (0.8%);1.41
+2024-03-02 05:20;Étiquetage;143;4.8;5.1;Mauvais alignement (0.8%);1.3
+2024-03-02 05:25;Carottage;149;6.1;4.5;Bulles d'air (2%);2.7
+2024-03-02 05:30;Soufflage;140;5.1;8.4;Bulles d'air (2%);1.53
+2024-03-02 05:35;Carottage;144;7.1;4.7;Mauvais alignement (0.8%);1.19
+2024-03-02 05:40;Étiquetage;103;6.5;6.0;Déformation (1%);1.1
+2024-03-02 05:45;Soufflage;112;7.2;5.2;Aucun;2.2
+2024-03-02 05:50;Carottage;107;5.8;6.7;Mauvais alignement (0.8%);2.18
+2024-03-02 05:55;Remplissage;138;6.8;5.7;Rayures (1%);2.16
+2024-03-02 06:00;Soufflage;111;7.1;5.7;Rayures (1%);2.49
+2024-03-02 06:05;Soufflage;117;5.0;4.6;Mauvais alignement (0.8%);1.31
+2024-03-02 06:10;Remplissage;114;7.2;5.1;Aucun;2.57
+2024-03-02 06:15;Soufflage;100;7.4;6.4;Rayures (1%);1.76
+2024-03-02 06:20;Carottage;106;6.4;7.3;Rayures (1%);1.97
+2024-03-02 06:25;Soufflage;111;7.2;6.1;Aucun;2.33
+2024-03-02 06:30;Carottage;150;6.1;5.5;Fuites (1.5%);1.93
+2024-03-02 06:35;Soufflage;146;4.6;6.4;Bulles d'air (2%);2.97
+2024-03-02 06:40;Carottage;142;6.7;7.1;Déformation (1%);1.38
+2024-03-02 06:45;Étiquetage;123;4.8;5.0;Fuites (1.5%);1.77
+2024-03-02 06:50;Carottage;143;5.4;7.0;Déformation (1%);1.06
+2024-03-02 06:55;Étiquetage;141;6.8;6.6;Fuites (1.5%);1.7
+2024-03-02 07:00;Carottage;110;7.0;4.7;Mauvais alignement (0.8%);2.66
+2024-03-02 07:05;Carottage;134;6.3;6.9;Rayures (1%);2.75
+2024-03-02 07:10;Remplissage;142;6.2;6.8;Rayures (1%);1.87
+2024-03-02 07:15;Remplissage;106;5.4;7.2;Déformation (1%);1.64
+2024-03-02 07:20;Carottage;114;5.7;6.6;Aucun;2.15
+2024-03-02 07:25;Remplissage;120;5.2;7.7;Fuites (1.5%);2.43
+2024-03-02 07:30;Étiquetage;120;7.1;8.0;Mauvais alignement (0.8%);1.71
+2024-03-02 07:35;Carottage;124;4.7;7.6;Aucun;1.35
+2024-03-02 07:40;Étiquetage;107;4.5;7.6;Mauvais alignement (0.8%);1.18
+2024-03-02 07:45;Remplissage;137;6.9;5.6;Rayures (1%);2.23
+2024-03-02 07:50;Étiquetage;134;7.3;6.7;Rayures (1%);2.14
+2024-03-02 07:55;Remplissage;117;7.2;8.5;Fuites (1.5%);1.88
+2024-03-02 08:00;Soufflage;136;5.2;5.1;Mauvais alignement (0.8%);1.12
+2024-03-02 08:05;Soufflage;117;5.1;5.7;Bulles d'air (2%);2.05
+2024-03-02 08:10;Étiquetage;144;6.1;6.8;Déformation (1%);2.52
+2024-03-02 08:15;Soufflage;134;6.7;5.6;Mauvais alignement (0.8%);2.22
+2024-03-02 08:20;Carottage;123;7.3;5.5;Mauvais alignement (0.8%);1.64
+2024-03-02 08:25;Soufflage;114;6.3;7.5;Aucun;2.16
+2024-03-02 08:30;Carottage;121;6.8;5.1;Rayures (1%);1.28
+2024-03-02 08:35;Soufflage;121;6.0;7.4;Fuites (1.5%);2.56
+2024-03-02 08:40;Étiquetage;110;6.0;6.7;Mauvais alignement (0.8%);2.56
+2024-03-02 08:45;Étiquetage;125;6.3;5.3;Fuites (1.5%);2.42
+2024-03-02 08:50;Soufflage;110;7.2;5.3;Rayures (1%);1.36
+2024-03-02 08:55;Étiquetage;130;4.9;7.0;Mauvais alignement (0.8%);1.91
+2024-03-02 09:00;Étiquetage;132;6.3;7.5;Déformation (1%);1.86
+2024-03-02 09:05;Soufflage;100;5.7;7.7;Déformation (1%);2.21
+2024-03-02 09:10;Carottage;133;5.2;4.7;Rayures (1%);1.83
+2024-03-02 09:15;Étiquetage;104;5.1;4.7;Rayures (1%);2.22
+2024-03-02 09:20;Remplissage;100;6.3;8.1;Rayures (1%);1.9
+2024-03-02 09:25;Remplissage;146;6.9;7.8;Fuites (1.5%);2.76
+2024-03-02 09:30;Remplissage;115;5.2;6.7;Déformation (1%);1.12
+2024-03-02 09:35;Remplissage;135;7.1;8.3;Rayures (1%);1.43
+2024-03-02 09:40;Carottage;108;7.0;6.9;Aucun;1.31
+2024-03-02 09:45;Étiquetage;149;7.2;6.7;Aucun;1.47
+2024-03-02 09:50;Étiquetage;122;5.5;5.3;Aucun;2.45
+2024-03-02 09:55;Carottage;121;6.9;6.8;Fuites (1.5%);1.33
+2024-03-02 10:00;Carottage;124;5.1;6.0;Rayures (1%);1.14
+2024-03-02 10:05;Soufflage;112;5.0;5.1;Déformation (1%);1.07
+2024-03-02 10:10;Remplissage;150;6.2;7.0;Déformation (1%);2.42
+2024-03-02 10:15;Carottage;127;4.9;5.1;Rayures (1%);1.07
+2024-03-02 10:20;Étiquetage;105;5.4;5.1;Mauvais alignement (0.8%);1.3
+2024-03-02 10:25;Remplissage;142;6.9;6.3;Aucun;2.06
+2024-03-02 10:30;Remplissage;103;5.8;6.8;Bulles d'air (2%);2.14
+2024-03-02 10:35;Remplissage;113;5.3;4.9;Bulles d'air (2%);1.21
+2024-03-02 10:40;Remplissage;132;5.8;6.5;Mauvais alignement (0.8%);1.34
+2024-03-02 10:45;Carottage;111;5.4;6.3;Aucun;2.57
+2024-03-02 10:50;Carottage;103;6.3;4.6;Déformation (1%);1.53
+2024-03-02 10:55;Soufflage;108;7.0;5.0;Fuites (1.5%);2.34
+2024-03-02 11:00;Remplissage;144;5.9;7.8;Mauvais alignement (0.8%);1.56
+2024-03-02 11:05;Soufflage;100;6.4;7.8;Bulles d'air (2%);2.66
+2024-03-02 11:10;Soufflage;131;5.5;6.8;Rayures (1%);1.74
+2024-03-02 11:15;Étiquetage;114;7.4;7.6;Rayures (1%);2.74
+2024-03-02 11:20;Carottage;147;5.2;4.6;Mauvais alignement (0.8%);1.96
+2024-03-02 11:25;Étiquetage;113;5.7;7.2;Rayures (1%);2.43
+2024-03-02 11:30;Soufflage;149;6.3;6.0;Déformation (1%);2.31
+2024-03-02 11:35;Étiquetage;116;7.1;8.0;Aucun;1.51
+2024-03-02 11:40;Remplissage;146;5.2;7.7;Mauvais alignement (0.8%);1.85
+2024-03-02 11:45;Soufflage;135;6.8;6.9;Déformation (1%);1.81
+2024-03-02 11:50;Étiquetage;143;5.6;6.8;Aucun;2.54
+2024-03-02 11:55;Remplissage;140;5.6;6.8;Fuites (1.5%);1.07
+2024-03-02 12:00;Remplissage;127;6.4;7.6;Fuites (1.5%);2.16
+2024-03-02 12:05;Carottage;137;6.1;7.6;Bulles d'air (2%);1.18
+2024-03-02 12:10;Carottage;101;6.0;7.5;Aucun;1.39
+2024-03-02 12:15;Remplissage;145;5.0;4.8;Aucun;2.61
+2024-03-02 12:20;Remplissage;117;4.6;5.5;Mauvais alignement (0.8%);2.2
+2024-03-02 12:25;Soufflage;138;4.5;5.9;Rayures (1%);2.35
+2024-03-02 12:30;Soufflage;107;6.0;4.7;Fuites (1.5%);1.3
+2024-03-02 12:35;Soufflage;120;4.6;7.9;Aucun;2.86
+2024-03-02 12:40;Remplissage;145;4.7;6.7;Bulles d'air (2%);2.75
+2024-03-02 12:45;Soufflage;127;5.7;8.2;Déformation (1%);1.1
+2024-03-02 12:50;Soufflage;148;6.3;8.0;Déformation (1%);2.38
+2024-03-02 12:55;Remplissage;100;5.9;6.1;Fuites (1.5%);1.03
+2024-03-02 13:00;Soufflage;111;5.8;7.0;Mauvais alignement (0.8%);2.02
+2024-03-02 13:05;Carottage;104;6.8;7.1;Aucun;2.85
+2024-03-02 13:10;Remplissage;106;6.9;4.8;Aucun;1.91
+2024-03-02 13:15;Carottage;150;6.5;7.4;Déformation (1%);2.54
+2024-03-02 13:20;Soufflage;142;7.2;5.1;Déformation (1%);2.93
+2024-03-02 13:25;Remplissage;102;7.0;5.8;Fuites (1.5%);1.83
+2024-03-02 13:30;Étiquetage;120;6.6;6.2;Déformation (1%);2.16
+2024-03-02 13:35;Soufflage;124;4.7;6.0;Mauvais alignement (0.8%);2.38
+2024-03-02 13:40;Soufflage;136;5.4;7.9;Mauvais alignement (0.8%);1.2
+2024-03-02 13:45;Étiquetage;140;4.6;6.2;Bulles d'air (2%);2.89
+2024-03-02 13:50;Carottage;144;6.2;7.9;Fuites (1.5%);2.01
+2024-03-02 13:55;Soufflage;116;5.7;6.1;Aucun;1.89
+2024-03-02 14:00;Carottage;136;7.4;4.6;Fuites (1.5%);1.54
+2024-03-02 14:05;Remplissage;126;7.1;7.9;Mauvais alignement (0.8%);1.62
+2024-03-02 14:10;Remplissage;128;4.6;8.0;Mauvais alignement (0.8%);1.0
+2024-03-02 14:15;Étiquetage;108;5.8;6.5;Fuites (1.5%);2.88
+2024-03-02 14:20;Remplissage;109;4.7;6.1;Rayures (1%);2.85
+2024-03-02 14:25;Carottage;110;6.7;6.8;Déformation (1%);2.11
+2024-03-02 14:30;Étiquetage;142;7.1;4.6;Fuites (1.5%);2.83
+2024-03-02 14:35;Étiquetage;103;6.1;5.4;Déformation (1%);1.48
+2024-03-02 14:40;Soufflage;141;5.8;6.4;Bulles d'air (2%);2.05
+2024-03-02 14:45;Carottage;114;7.1;7.5;Fuites (1.5%);2.81
+2024-03-02 14:50;Remplissage;118;5.7;5.6;Aucun;1.87
+2024-03-02 14:55;Soufflage;106;6.0;8.3;Rayures (1%);2.46
+2024-03-02 15:00;Étiquetage;121;4.9;5.3;Mauvais alignement (0.8%);2.03
+2024-03-02 15:05;Remplissage;114;6.9;8.3;Fuites (1.5%);1.77
+2024-03-02 15:10;Soufflage;118;5.7;7.9;Déformation (1%);2.33
+2024-03-02 15:15;Remplissage;132;6.0;6.8;Rayures (1%);2.99
+2024-03-02 15:20;Carottage;115;6.8;5.8;Fuites (1.5%);1.94
+2024-03-02 15:25;Étiquetage;138;6.7;8.4;Fuites (1.5%);2.71
+2024-03-02 15:30;Étiquetage;130;6.0;6.9;Aucun;1.9
+2024-03-02 15:35;Carottage;114;4.6;7.8;Déformation (1%);2.3
+2024-03-02 15:40;Remplissage;122;4.6;7.1;Rayures (1%);2.74
+2024-03-02 15:45;Remplissage;112;7.1;8.3;Fuites (1.5%);1.79
+2024-03-02 15:50;Remplissage;115;7.3;4.5;Déformation (1%);1.29
+2024-03-02 15:55;Étiquetage;144;5.1;8.1;Rayures (1%);1.63
+2024-03-02 16:00;Remplissage;108;6.5;6.0;Rayures (1%);2.06
+2024-03-02 16:05;Carottage;127;6.4;6.7;Déformation (1%);1.18
+2024-03-02 16:10;Étiquetage;100;7.3;7.8;Mauvais alignement (0.8%);2.2
+2024-03-02 16:15;Étiquetage;148;5.5;4.6;Fuites (1.5%);2.11
+2024-03-02 16:20;Remplissage;148;6.8;4.6;Bulles d'air (2%);1.07
+2024-03-02 16:25;Soufflage;125;5.3;6.9;Mauvais alignement (0.8%);2.22
+2024-03-02 16:30;Soufflage;122;6.6;5.7;Aucun;1.95
+2024-03-02 16:35;Étiquetage;108;6.2;7.2;Mauvais alignement (0.8%);1.38
+2024-03-02 16:40;Carottage;102;7.5;8.4;Mauvais alignement (0.8%);2.88
+2024-03-02 16:45;Soufflage;112;4.5;7.9;Fuites (1.5%);2.56
+2024-03-02 16:50;Remplissage;106;6.8;4.7;Bulles d'air (2%);2.6
+2024-03-02 16:55;Soufflage;110;6.5;7.5;Aucun;2.17
+2024-03-02 17:00;Soufflage;130;6.4;4.7;Bulles d'air (2%);2.32
+2024-03-02 17:05;Étiquetage;110;6.1;5.4;Bulles d'air (2%);2.62
+2024-03-02 17:10;Soufflage;123;6.3;6.6;Déformation (1%);2.97
+2024-03-02 17:15;Carottage;127;5.1;4.5;Fuites (1.5%);2.07
+2024-03-02 17:20;Carottage;100;5.0;8.4;Rayures (1%);1.66
+2024-03-02 17:25;Étiquetage;120;5.0;6.2;Aucun;1.75
+2024-03-02 17:30;Étiquetage;137;7.2;5.9;Rayures (1%);2.98
+2024-03-02 17:35;Soufflage;118;5.2;5.6;Aucun;2.17
+2024-03-02 17:40;Carottage;108;7.0;4.6;Mauvais alignement (0.8%);2.76
+2024-03-02 17:45;Remplissage;115;5.7;7.1;Fuites (1.5%);2.66
+2024-03-02 17:50;Étiquetage;113;5.1;7.3;Aucun;2.38
+2024-03-02 17:55;Soufflage;136;4.7;4.9;Bulles d'air (2%);1.99
+2024-03-02 18:00;Soufflage;150;6.8;7.3;Bulles d'air (2%);1.96
+2024-03-02 18:05;Carottage;116;5.0;6.1;Déformation (1%);1.11
+2024-03-02 18:10;Soufflage;127;4.5;6.6;Déformation (1%);1.59
+2024-03-02 18:15;Carottage;149;7.4;6.6;Mauvais alignement (0.8%);3.0
+2024-03-02 18:20;Étiquetage;102;6.7;8.4;Rayures (1%);1.96
+2024-03-02 18:25;Soufflage;139;5.3;7.9;Fuites (1.5%);1.92
+2024-03-02 18:30;Étiquetage;103;5.1;8.4;Fuites (1.5%);2.23
+2024-03-02 18:35;Remplissage;129;6.6;6.6;Fuites (1.5%);2.21
+2024-03-02 18:40;Remplissage;149;6.2;7.8;Rayures (1%);1.29
+2024-03-02 18:45;Remplissage;105;6.3;6.2;Aucun;2.96
+2024-03-02 18:50;Soufflage;109;6.3;7.6;Déformation (1%);2.69
+2024-03-02 18:55;Soufflage;116;6.1;8.5;Bulles d'air (2%);2.28
+2024-03-02 19:00;Remplissage;145;6.8;5.9;Bulles d'air (2%);1.17
+2024-03-02 19:05;Soufflage;101;5.5;4.6;Déformation (1%);1.18
+2024-03-02 19:10;Remplissage;138;7.5;4.6;Bulles d'air (2%);1.35
+2024-03-02 19:15;Étiquetage;103;5.6;7.6;Bulles d'air (2%);1.66
+2024-03-02 19:20;Carottage;113;7.3;5.9;Rayures (1%);1.09
+2024-03-02 19:25;Carottage;142;5.3;7.1;Rayures (1%);2.29
+2024-03-02 19:30;Carottage;139;4.7;5.8;Déformation (1%);2.51
+2024-03-02 19:35;Étiquetage;136;6.4;6.7;Déformation (1%);1.33
+2024-03-02 19:40;Étiquetage;116;7.0;8.3;Aucun;1.06
+2024-03-02 19:45;Remplissage;147;5.2;8.2;Aucun;1.57
+2024-03-02 19:50;Soufflage;148;6.1;8.2;Aucun;2.21
+2024-03-02 19:55;Étiquetage;101;6.2;7.3;Rayures (1%);1.7
+2024-03-02 20:00;Remplissage;121;7.1;8.4;Déformation (1%);2.65
+2024-03-02 20:05;Soufflage;103;4.6;7.3;Bulles d'air (2%);2.14
+2024-03-02 20:10;Soufflage;145;6.2;6.1;Mauvais alignement (0.8%);2.45
+2024-03-02 20:15;Soufflage;108;6.4;7.2;Déformation (1%);2.64
+2024-03-02 20:20;Carottage;130;5.7;5.3;Rayures (1%);2.52
+2024-03-02 20:25;Étiquetage;129;6.0;8.0;Aucun;1.54
+2024-03-02 20:30;Soufflage;138;6.2;7.0;Fuites (1.5%);1.22
+2024-03-02 20:35;Soufflage;129;4.9;6.6;Rayures (1%);1.17
+2024-03-02 20:40;Carottage;123;5.7;7.6;Déformation (1%);2.44
+2024-03-02 20:45;Remplissage;116;4.7;4.9;Aucun;1.33
+2024-03-02 20:50;Carottage;124;6.8;7.7;Aucun;2.47
+2024-03-02 20:55;Carottage;148;6.1;8.0;Aucun;1.33
+2024-03-02 21:00;Étiquetage;120;6.9;4.9;Aucun;2.5
+2024-03-02 21:05;Étiquetage;121;6.8;8.3;Bulles d'air (2%);1.0
+2024-03-02 21:10;Soufflage;111;5.1;6.2;Fuites (1.5%);1.82
+2024-03-02 21:15;Carottage;129;6.9;5.0;Fuites (1.5%);2.07
+2024-03-02 21:20;Étiquetage;114;4.5;7.5;Déformation (1%);1.56
+2024-03-02 21:25;Carottage;129;7.3;6.1;Fuites (1.5%);2.41
+2024-03-02 21:30;Étiquetage;111;6.0;8.3;Aucun;2.37
+2024-03-02 21:35;Soufflage;101;6.5;8.1;Mauvais alignement (0.8%);2.63
+2024-03-02 21:40;Étiquetage;123;6.7;7.6;Mauvais alignement (0.8%);1.34
+2024-03-02 21:45;Carottage;131;5.4;7.0;Rayures (1%);2.23
+2024-03-02 21:50;Carottage;126;6.8;6.3;Aucun;2.14
+2024-03-02 21:55;Soufflage;119;7.3;7.6;Rayures (1%);1.75
+2024-03-02 22:00;Remplissage;113;4.6;4.7;Rayures (1%);2.72
+2024-03-02 22:05;Soufflage;117;5.9;6.0;Mauvais alignement (0.8%);1.99
+2024-03-02 22:10;Carottage;120;5.4;5.6;Rayures (1%);2.57
+2024-03-02 22:15;Soufflage;125;6.2;6.6;Rayures (1%);1.66
+2024-03-02 22:20;Étiquetage;107;6.3;5.0;Rayures (1%);1.09
+2024-03-02 22:25;Soufflage;124;5.4;8.1;Aucun;1.56
+2024-03-02 22:30;Soufflage;115;6.4;7.7;Aucun;2.53
+2024-03-02 22:35;Soufflage;124;6.6;8.4;Déformation (1%);1.53
+2024-03-02 22:40;Carottage;106;6.9;5.8;Fuites (1.5%);2.1
+2024-03-02 22:45;Carottage;102;5.0;8.3;Aucun;2.11
+2024-03-02 22:50;Soufflage;141;6.0;6.8;Bulles d'air (2%);1.93
+2024-03-02 22:55;Remplissage;145;6.8;5.3;Aucun;1.74
+2024-03-02 23:00;Étiquetage;120;5.9;5.9;Aucun;1.21
+2024-03-02 23:05;Soufflage;144;4.6;6.7;Fuites (1.5%);1.47
+2024-03-02 23:10;Remplissage;144;5.3;6.8;Rayures (1%);2.79
+2024-03-02 23:15;Carottage;139;7.0;6.8;Déformation (1%);2.52
+2024-03-02 23:20;Carottage;133;5.9;8.1;Aucun;1.8
+2024-03-02 23:25;Carottage;105;7.5;7.7;Bulles d'air (2%);2.2
+2024-03-02 23:30;Soufflage;101;5.0;7.2;Déformation (1%);2.51
+2024-03-02 23:35;Carottage;143;6.5;6.3;Aucun;1.4
+2024-03-02 23:40;Remplissage;125;5.8;6.0;Mauvais alignement (0.8%);2.35
+2024-03-02 23:45;Carottage;148;6.9;6.7;Fuites (1.5%);1.53
+2024-03-02 23:50;Carottage;101;4.7;7.5;Rayures (1%);2.39
+2024-03-02 23:55;Soufflage;125;5.9;5.0;Déformation (1%);2.31
+2024-03-03 00:00;Carottage;135;6.4;7.2;Rayures (1%);1.76
+2024-03-03 00:05;Remplissage;110;7.4;6.4;Rayures (1%);1.11
+2024-03-03 00:10;Étiquetage;144;5.3;5.4;Aucun;2.99
+2024-03-03 00:15;Étiquetage;126;6.2;5.3;Rayures (1%);2.67
+2024-03-03 00:20;Étiquetage;131;4.8;6.2;Déformation (1%);2.11
+2024-03-03 00:25;Remplissage;118;6.9;5.6;Aucun;1.76
+2024-03-03 00:30;Remplissage;143;6.2;7.7;Aucun;1.81
+2024-03-03 00:35;Étiquetage;142;6.1;7.3;Rayures (1%);2.18
+2024-03-03 00:40;Remplissage;134;6.5;7.3;Rayures (1%);2.46
+2024-03-03 00:45;Remplissage;106;4.5;7.4;Rayures (1%);2.44
+2024-03-03 00:50;Étiquetage;136;6.9;7.4;Déformation (1%);1.83
+2024-03-03 00:55;Étiquetage;102;5.3;5.8;Déformation (1%);1.71
+2024-03-03 01:00;Remplissage;147;6.0;7.0;Mauvais alignement (0.8%);2.42
+2024-03-03 01:05;Soufflage;145;5.5;6.1;Fuites (1.5%);2.3
+2024-03-03 01:10;Étiquetage;146;6.7;7.5;Rayures (1%);1.56
+2024-03-03 01:15;Carottage;116;5.0;7.4;Aucun;1.33
+2024-03-03 01:20;Carottage;113;5.1;5.1;Bulles d'air (2%);1.24
+2024-03-03 01:25;Étiquetage;124;5.9;7.1;Aucun;2.1
+2024-03-03 01:30;Étiquetage;122;6.4;8.0;Mauvais alignement (0.8%);2.06
+2024-03-03 01:35;Carottage;146;5.5;8.5;Fuites (1.5%);1.74
+2024-03-03 01:40;Remplissage;100;7.3;5.5;Aucun;1.26
+2024-03-03 01:45;Étiquetage;106;7.2;5.8;Mauvais alignement (0.8%);1.77
+2024-03-03 01:50;Soufflage;142;6.7;7.2;Déformation (1%);2.51
+2024-03-03 01:55;Étiquetage;140;6.0;4.8;Rayures (1%);2.13
+2024-03-03 02:00;Remplissage;101;5.9;5.9;Mauvais alignement (0.8%);1.83
+2024-03-03 02:05;Étiquetage;131;7.1;7.2;Déformation (1%);2.26
+2024-03-03 02:10;Carottage;145;6.2;4.8;Aucun;2.83
+2024-03-03 02:15;Remplissage;124;5.5;4.6;Déformation (1%);2.83
+2024-03-03 02:20;Soufflage;138;5.1;7.0;Fuites (1.5%);1.5
+2024-03-03 02:25;Carottage;130;4.8;5.8;Aucun;1.44
+2024-03-03 02:30;Soufflage;102;5.5;6.4;Rayures (1%);2.27
+2024-03-03 02:35;Soufflage;117;5.0;6.3;Fuites (1.5%);2.12
+2024-03-03 02:40;Soufflage;132;6.4;7.8;Rayures (1%);1.52
+2024-03-03 02:45;Soufflage;137;7.1;4.8;Mauvais alignement (0.8%);2.88
+2024-03-03 02:50;Carottage;114;6.2;5.1;Mauvais alignement (0.8%);2.83
+2024-03-03 02:55;Remplissage;135;6.3;6.7;Fuites (1.5%);2.13
+2024-03-03 03:00;Carottage;139;4.8;7.2;Rayures (1%);2.19
+2024-03-03 03:05;Carottage;109;6.0;6.6;Bulles d'air (2%);1.06
+2024-03-03 03:10;Étiquetage;136;5.0;6.1;Aucun;2.01
+2024-03-03 03:15;Carottage;105;7.0;5.5;Déformation (1%);1.09
+2024-03-03 03:20;Soufflage;103;6.6;5.3;Rayures (1%);1.21
+2024-03-03 03:25;Remplissage;128;5.0;5.0;Aucun;2.47
+2024-03-03 03:30;Carottage;114;7.2;8.2;Aucun;1.02
+2024-03-03 03:35;Carottage;123;5.1;4.9;Rayures (1%);1.78
+2024-03-03 03:40;Soufflage;139;7.1;7.1;Mauvais alignement (0.8%);2.93
+2024-03-03 03:45;Soufflage;112;4.9;8.4;Mauvais alignement (0.8%);1.96
+2024-03-03 03:50;Étiquetage;146;6.8;5.6;Fuites (1.5%);1.14
+2024-03-03 03:55;Carottage;102;7.2;5.2;Bulles d'air (2%);2.78
+2024-03-03 04:00;Étiquetage;104;6.7;4.5;Aucun;2.76
+2024-03-03 04:05;Carottage;125;7.4;6.1;Rayures (1%);1.69
+2024-03-03 04:10;Soufflage;141;6.6;6.3;Mauvais alignement (0.8%);1.65
+2024-03-03 04:15;Carottage;122;6.0;6.9;Fuites (1.5%);1.44
+2024-03-03 04:20;Étiquetage;115;4.5;8.2;Bulles d'air (2%);2.62
+2024-03-03 04:25;Remplissage;144;6.7;4.7;Bulles d'air (2%);2.18
+2024-03-03 04:30;Étiquetage;147;7.4;7.1;Fuites (1.5%);2.05
+2024-03-03 04:35;Remplissage;145;6.8;5.1;Déformation (1%);1.63
+2024-03-03 04:40;Remplissage;103;5.0;7.2;Mauvais alignement (0.8%);1.76
+2024-03-03 04:45;Étiquetage;133;5.6;6.7;Bulles d'air (2%);1.17
+2024-03-03 04:50;Soufflage;112;5.3;4.5;Bulles d'air (2%);2.6
+2024-03-03 04:55;Remplissage;132;6.7;8.3;Fuites (1.5%);2.41
+2024-03-03 05:00;Soufflage;116;5.1;4.5;Mauvais alignement (0.8%);2.99
+2024-03-03 05:05;Remplissage;137;6.0;7.6;Bulles d'air (2%);2.62
+2024-03-03 05:10;Soufflage;111;6.8;7.8;Aucun;1.68
+2024-03-03 05:15;Soufflage;104;7.2;7.6;Mauvais alignement (0.8%);2.82
+2024-03-03 05:20;Remplissage;121;5.6;4.7;Déformation (1%);2.87
+2024-03-03 05:25;Soufflage;143;7.3;5.3;Mauvais alignement (0.8%);1.12
+2024-03-03 05:30;Soufflage;103;5.7;7.1;Mauvais alignement (0.8%);1.78
+2024-03-03 05:35;Soufflage;124;4.9;7.1;Déformation (1%);2.3
+2024-03-03 05:40;Étiquetage;106;5.5;5.5;Rayures (1%);2.5
+2024-03-03 05:45;Remplissage;137;7.5;6.0;Déformation (1%);2.86
+2024-03-03 05:50;Étiquetage;117;4.7;4.7;Fuites (1.5%);1.1
+2024-03-03 05:55;Carottage;136;5.0;5.1;Bulles d'air (2%);1.33
+2024-03-03 06:00;Soufflage;121;6.9;5.5;Bulles d'air (2%);2.09
+2024-03-03 06:05;Étiquetage;101;6.6;4.8;Rayures (1%);1.96
+2024-03-03 06:10;Étiquetage;116;5.0;5.6;Aucun;2.31
+2024-03-03 06:15;Soufflage;148;6.1;5.2;Fuites (1.5%);2.23
+2024-03-03 06:20;Remplissage;127;6.0;5.9;Déformation (1%);2.43
+2024-03-03 06:25;Étiquetage;100;4.7;6.0;Déformation (1%);1.23
+2024-03-03 06:30;Carottage;106;5.3;4.7;Aucun;2.54
+2024-03-03 06:35;Soufflage;127;7.2;7.1;Déformation (1%);1.17
+2024-03-03 06:40;Remplissage;107;4.8;7.7;Bulles d'air (2%);1.04
+2024-03-03 06:45;Carottage;138;7.0;6.8;Rayures (1%);1.35
+2024-03-03 06:50;Étiquetage;138;4.5;8.3;Déformation (1%);1.27
+2024-03-03 06:55;Remplissage;132;6.7;5.0;Aucun;1.71
+2024-03-03 07:00;Soufflage;130;5.2;6.0;Bulles d'air (2%);1.58
+2024-03-03 07:05;Soufflage;130;5.3;4.8;Bulles d'air (2%);2.58
+2024-03-03 07:10;Soufflage;134;5.1;6.2;Mauvais alignement (0.8%);1.59
+2024-03-03 07:15;Soufflage;112;4.5;4.5;Fuites (1.5%);2.45
+2024-03-03 07:20;Carottage;143;6.6;6.4;Rayures (1%);1.25
+2024-03-03 07:25;Carottage;133;4.9;6.0;Déformation (1%);1.68
+2024-03-03 07:30;Soufflage;108;6.4;7.6;Rayures (1%);2.77
+2024-03-03 07:35;Soufflage;148;5.6;7.3;Aucun;1.51
+2024-03-03 07:40;Soufflage;130;6.8;5.2;Aucun;1.28
+2024-03-03 07:45;Remplissage;139;7.5;6.5;Rayures (1%);2.76
+2024-03-03 07:50;Étiquetage;124;5.8;6.0;Mauvais alignement (0.8%);1.39
+2024-03-03 07:55;Étiquetage;112;5.5;5.5;Déformation (1%);2.52
+2024-03-03 08:00;Soufflage;135;4.6;5.0;Aucun;1.42
+2024-03-03 08:05;Remplissage;139;6.6;6.8;Bulles d'air (2%);2.41
+2024-03-03 08:10;Soufflage;102;5.2;7.5;Bulles d'air (2%);1.9
+2024-03-03 08:15;Carottage;128;5.4;5.8;Déformation (1%);1.89
+2024-03-03 08:20;Étiquetage;115;7.5;8.1;Fuites (1.5%);1.03
+2024-03-03 08:25;Soufflage;146;5.1;8.0;Fuites (1.5%);2.06
+2024-03-03 08:30;Carottage;124;5.2;7.7;Mauvais alignement (0.8%);1.12
+2024-03-03 08:35;Étiquetage;138;5.4;6.3;Aucun;1.35
+2024-03-03 08:40;Carottage;114;5.7;4.8;Bulles d'air (2%);1.72
+2024-03-03 08:45;Étiquetage;138;4.9;8.4;Aucun;1.85
+2024-03-03 08:50;Étiquetage;133;5.3;6.1;Fuites (1.5%);2.02
+2024-03-03 08:55;Remplissage;144;4.6;7.3;Fuites (1.5%);1.46
+2024-03-03 09:00;Soufflage;107;5.3;4.9;Aucun;2.69
+2024-03-03 09:05;Carottage;118;6.1;4.9;Mauvais alignement (0.8%);2.24
+2024-03-03 09:10;Étiquetage;149;5.9;6.9;Déformation (1%);1.73
+2024-03-03 09:15;Étiquetage;136;7.2;5.7;Mauvais alignement (0.8%);2.3
+2024-03-03 09:20;Remplissage;134;6.7;5.8;Mauvais alignement (0.8%);2.31
+2024-03-03 09:25;Soufflage;124;6.9;5.3;Bulles d'air (2%);1.96
+2024-03-03 09:30;Remplissage;126;4.8;5.1;Fuites (1.5%);1.95
+2024-03-03 09:35;Étiquetage;100;6.7;5.1;Déformation (1%);1.53
+2024-03-03 09:40;Soufflage;133;5.5;6.1;Bulles d'air (2%);2.88
+2024-03-03 09:45;Remplissage;136;5.8;7.9;Aucun;2.27
+2024-03-03 09:50;Remplissage;136;6.7;5.2;Fuites (1.5%);2.58
+2024-03-03 09:55;Carottage;105;5.4;5.0;Aucun;2.02
+2024-03-03 10:00;Soufflage;148;6.8;7.0;Rayures (1%);1.45
+2024-03-03 10:05;Remplissage;132;4.8;8.2;Mauvais alignement (0.8%);1.11
+2024-03-03 10:10;Remplissage;123;5.7;7.8;Aucun;2.66
+2024-03-03 10:15;Soufflage;100;6.7;5.1;Bulles d'air (2%);1.04
+2024-03-03 10:20;Carottage;114;5.0;6.8;Aucun;1.31
+2024-03-03 10:25;Carottage;123;5.7;7.2;Fuites (1.5%);2.17
+2024-03-03 10:30;Soufflage;113;4.6;5.8;Bulles d'air (2%);2.84
+2024-03-03 10:35;Étiquetage;101;4.7;8.0;Mauvais alignement (0.8%);1.46
+2024-03-03 10:40;Remplissage;123;5.8;8.4;Aucun;1.94
+2024-03-03 10:45;Étiquetage;121;7.2;6.9;Bulles d'air (2%);1.04
+2024-03-03 10:50;Soufflage;112;5.7;6.2;Aucun;2.8
+2024-03-03 10:55;Carottage;129;7.0;6.8;Mauvais alignement (0.8%);1.72
+2024-03-03 11:00;Soufflage;134;7.2;6.0;Mauvais alignement (0.8%);1.17
+2024-03-03 11:05;Remplissage;100;5.1;8.4;Rayures (1%);1.19
+2024-03-03 11:10;Remplissage;143;7.4;6.0;Bulles d'air (2%);1.91
+2024-03-03 11:15;Étiquetage;135;5.7;4.9;Aucun;1.89
+2024-03-03 11:20;Soufflage;129;6.0;4.6;Bulles d'air (2%);1.39
+2024-03-03 11:25;Étiquetage;112;6.6;8.2;Bulles d'air (2%);1.61
+2024-03-03 11:30;Étiquetage;107;7.3;8.2;Déformation (1%);2.25
+2024-03-03 11:35;Soufflage;138;5.7;5.1;Mauvais alignement (0.8%);2.97
+2024-03-03 11:40;Soufflage;115;7.2;5.8;Fuites (1.5%);2.48
+2024-03-03 11:45;Étiquetage;125;7.0;5.8;Déformation (1%);2.21
+2024-03-03 11:50;Remplissage;116;5.2;6.4;Fuites (1.5%);1.6
+2024-03-03 11:55;Étiquetage;106;6.3;7.7;Fuites (1.5%);1.59
+2024-03-03 12:00;Remplissage;116;4.9;6.9;Fuites (1.5%);1.72
+2024-03-03 12:05;Étiquetage;108;4.7;5.2;Aucun;2.39
+2024-03-03 12:10;Soufflage;136;5.0;5.5;Mauvais alignement (0.8%);2.94
+2024-03-03 12:15;Soufflage;133;5.3;5.0;Déformation (1%);1.84
+2024-03-03 12:20;Soufflage;139;5.6;5.3;Déformation (1%);1.51
+2024-03-03 12:25;Remplissage;143;5.8;6.2;Fuites (1.5%);2.51
+2024-03-03 12:30;Soufflage;146;5.6;6.7;Fuites (1.5%);2.47
+2024-03-03 12:35;Remplissage;137;7.1;6.1;Bulles d'air (2%);2.82
+2024-03-03 12:40;Remplissage;111;7.0;7.8;Fuites (1.5%);1.45
+2024-03-03 12:45;Remplissage;135;4.7;6.6;Mauvais alignement (0.8%);2.79
+2024-03-03 12:50;Étiquetage;147;4.6;5.6;Aucun;2.87
+2024-03-03 12:55;Étiquetage;133;6.4;5.8;Mauvais alignement (0.8%);2.06
+2024-03-03 13:00;Soufflage;135;5.9;7.6;Rayures (1%);1.92
+2024-03-03 13:05;Soufflage;103;4.6;7.8;Déformation (1%);1.24
+2024-03-03 13:10;Remplissage;145;7.0;5.7;Fuites (1.5%);2.33
+2024-03-03 13:15;Soufflage;134;5.1;6.0;Bulles d'air (2%);2.47
+2024-03-03 13:20;Remplissage;130;6.1;5.9;Rayures (1%);1.35
+2024-03-03 13:25;Soufflage;132;7.3;6.3;Bulles d'air (2%);1.6
+2024-03-03 13:30;Carottage;134;7.3;4.8;Rayures (1%);1.58
+2024-03-03 13:35;Remplissage;113;6.0;7.1;Rayures (1%);2.74
+2024-03-03 13:40;Carottage;125;5.4;5.8;Aucun;2.47
+2024-03-03 13:45;Étiquetage;135;7.4;7.1;Bulles d'air (2%);1.95
+2024-03-03 13:50;Carottage;136;4.8;4.6;Fuites (1.5%);1.34
+2024-03-03 13:55;Soufflage;145;4.7;5.5;Rayures (1%);2.78
+2024-03-03 14:00;Soufflage;133;7.4;6.2;Aucun;2.44
+2024-03-03 14:05;Carottage;136;7.4;5.1;Aucun;1.64
+2024-03-03 14:10;Étiquetage;132;7.2;5.1;Bulles d'air (2%);2.07
+2024-03-03 14:15;Carottage;126;6.9;7.5;Rayures (1%);1.72
+2024-03-03 14:20;Carottage;104;5.3;8.2;Mauvais alignement (0.8%);2.94
+2024-03-03 14:25;Remplissage;119;5.7;6.2;Rayures (1%);1.99
+2024-03-03 14:30;Étiquetage;119;4.6;6.7;Déformation (1%);1.13
+2024-03-03 14:35;Étiquetage;129;4.7;7.7;Mauvais alignement (0.8%);2.63
+2024-03-03 14:40;Étiquetage;135;4.5;6.5;Mauvais alignement (0.8%);2.65
+2024-03-03 14:45;Soufflage;112;5.1;6.4;Bulles d'air (2%);1.68
+2024-03-03 14:50;Soufflage;126;6.7;5.5;Rayures (1%);2.35
+2024-03-03 14:55;Soufflage;129;5.8;4.6;Bulles d'air (2%);1.29
+2024-03-03 15:00;Remplissage;126;6.8;4.9;Bulles d'air (2%);2.55
+2024-03-03 15:05;Étiquetage;107;5.2;6.5;Bulles d'air (2%);1.45
+2024-03-03 15:10;Étiquetage;102;5.0;7.8;Rayures (1%);2.45
+2024-03-03 15:15;Remplissage;146;5.4;7.1;Bulles d'air (2%);1.17
+2024-03-03 15:20;Étiquetage;100;5.1;8.3;Bulles d'air (2%);2.38
+2024-03-03 15:25;Étiquetage;140;5.7;4.5;Rayures (1%);1.69
+2024-03-03 15:30;Carottage;103;5.1;7.3;Bulles d'air (2%);2.18
+2024-03-03 15:35;Soufflage;139;4.8;5.3;Aucun;2.27
+2024-03-03 15:40;Remplissage;111;6.2;7.1;Rayures (1%);1.14
+2024-03-03 15:45;Carottage;139;5.1;6.3;Déformation (1%);2.72
+2024-03-03 15:50;Remplissage;143;4.5;5.3;Rayures (1%);2.32
+2024-03-03 15:55;Soufflage;133;6.5;7.4;Aucun;1.33
+2024-03-03 16:00;Étiquetage;114;5.5;8.1;Aucun;2.88
+2024-03-03 16:05;Remplissage;112;7.4;5.9;Mauvais alignement (0.8%);2.83
+2024-03-03 16:10;Carottage;119;4.9;7.7;Aucun;2.42
+2024-03-03 16:15;Remplissage;148;6.7;6.3;Rayures (1%);2.5
+2024-03-03 16:20;Étiquetage;139;7.0;7.9;Mauvais alignement (0.8%);1.29
+2024-03-03 16:25;Remplissage;116;5.8;5.7;Mauvais alignement (0.8%);1.33
+2024-03-03 16:30;Carottage;124;6.4;6.0;Mauvais alignement (0.8%);1.33
+2024-03-03 16:35;Étiquetage;121;5.5;6.4;Déformation (1%);1.89
+2024-03-03 16:40;Soufflage;131;5.4;6.5;Bulles d'air (2%);2.44
+2024-03-03 16:45;Soufflage;138;6.7;8.2;Déformation (1%);1.74
+2024-03-03 16:50;Soufflage;134;6.1;7.3;Mauvais alignement (0.8%);1.05
+2024-03-03 16:55;Carottage;131;4.6;5.5;Mauvais alignement (0.8%);2.62
+2024-03-03 17:00;Carottage;119;4.7;5.2;Rayures (1%);1.03
+2024-03-03 17:05;Soufflage;119;6.9;6.9;Bulles d'air (2%);1.68
+2024-03-03 17:10;Étiquetage;109;6.9;6.0;Bulles d'air (2%);1.22
+2024-03-03 17:15;Remplissage;149;6.2;7.0;Fuites (1.5%);1.18
+2024-03-03 17:20;Carottage;122;4.6;4.9;Déformation (1%);2.56
+2024-03-03 17:25;Remplissage;139;5.1;4.7;Aucun;2.91
+2024-03-03 17:30;Soufflage;127;6.4;4.6;Déformation (1%);2.19
+2024-03-03 17:35;Remplissage;119;6.1;4.8;Mauvais alignement (0.8%);1.24
+2024-03-03 17:40;Soufflage;144;6.0;5.9;Aucun;2.91
+2024-03-03 17:45;Remplissage;139;6.3;6.3;Bulles d'air (2%);1.71
+2024-03-03 17:50;Carottage;104;5.6;6.7;Bulles d'air (2%);2.49
+2024-03-03 17:55;Remplissage;100;7.0;5.4;Fuites (1.5%);2.72
+2024-03-03 18:00;Étiquetage;136;5.6;8.4;Aucun;1.76
+2024-03-03 18:05;Carottage;141;6.4;6.7;Fuites (1.5%);2.73
+2024-03-03 18:10;Étiquetage;121;5.9;7.0;Mauvais alignement (0.8%);2.19
+2024-03-03 18:15;Carottage;123;7.3;8.0;Mauvais alignement (0.8%);2.04
+2024-03-03 18:20;Soufflage;121;7.0;8.3;Bulles d'air (2%);2.51
+2024-03-03 18:25;Soufflage;111;7.4;7.2;Bulles d'air (2%);2.12
+2024-03-03 18:30;Étiquetage;120;4.6;6.7;Aucun;1.16
+2024-03-03 18:35;Étiquetage;111;7.5;6.5;Déformation (1%);2.24
+2024-03-03 18:40;Remplissage;118;4.5;7.0;Fuites (1.5%);1.07
+2024-03-03 18:45;Étiquetage;138;5.0;6.5;Aucun;2.85
+2024-03-03 18:50;Étiquetage;148;5.6;7.8;Déformation (1%);2.6
+2024-03-03 18:55;Remplissage;120;6.0;8.0;Fuites (1.5%);2.5
+2024-03-03 19:00;Remplissage;110;6.1;5.9;Déformation (1%);2.27
+2024-03-03 19:05;Étiquetage;103;5.8;5.9;Rayures (1%);2.49
+2024-03-03 19:10;Carottage;104;6.0;8.4;Déformation (1%);2.77
+2024-03-03 19:15;Étiquetage;111;6.5;5.8;Aucun;2.14
+2024-03-03 19:20;Étiquetage;108;4.7;7.6;Mauvais alignement (0.8%);2.44
+2024-03-03 19:25;Soufflage;126;6.6;4.9;Déformation (1%);2.01
+2024-03-03 19:30;Soufflage;149;6.7;8.3;Rayures (1%);1.66
+2024-03-03 19:35;Soufflage;141;7.2;7.1;Mauvais alignement (0.8%);2.57
+2024-03-03 19:40;Soufflage;106;5.1;8.4;Aucun;2.54
+2024-03-03 19:45;Soufflage;128;5.1;7.2;Fuites (1.5%);1.09
+2024-03-03 19:50;Remplissage;128;5.2;4.9;Aucun;2.77
+2024-03-03 19:55;Remplissage;126;6.1;5.6;Déformation (1%);2.91
+2024-03-03 20:00;Remplissage;141;6.0;6.1;Rayures (1%);2.81
+2024-03-03 20:05;Étiquetage;139;5.5;5.9;Aucun;1.97
+2024-03-03 20:10;Soufflage;150;6.5;8.2;Mauvais alignement (0.8%);2.38
+2024-03-03 20:15;Soufflage;143;6.9;7.4;Fuites (1.5%);1.48
+2024-03-03 20:20;Étiquetage;142;7.5;6.4;Fuites (1.5%);2.42
+2024-03-03 20:25;Carottage;125;7.3;7.3;Bulles d'air (2%);1.56
+2024-03-03 20:30;Soufflage;105;6.6;6.9;Rayures (1%);2.36
+2024-03-03 20:35;Remplissage;110;5.2;5.7;Bulles d'air (2%);2.02
+2024-03-03 20:40;Étiquetage;110;7.3;7.7;Fuites (1.5%);1.3
+2024-03-03 20:45;Carottage;111;7.3;7.1;Bulles d'air (2%);1.2
+2024-03-03 20:50;Remplissage;143;7.3;7.1;Aucun;1.97
+2024-03-03 20:55;Étiquetage;136;6.8;7.1;Mauvais alignement (0.8%);1.2
+2024-03-03 21:00;Carottage;101;5.4;5.9;Mauvais alignement (0.8%);1.61
+2024-03-03 21:05;Soufflage;137;6.9;6.0;Rayures (1%);1.73
+2024-03-03 21:10;Soufflage;121;7.4;8.1;Mauvais alignement (0.8%);2.06
+2024-03-03 21:15;Étiquetage;108;7.2;7.5;Rayures (1%);1.01
+2024-03-03 21:20;Étiquetage;137;5.0;7.6;Fuites (1.5%);1.3
+2024-03-03 21:25;Remplissage;140;6.6;6.2;Fuites (1.5%);2.05
+2024-03-03 21:30;Remplissage;118;6.9;7.8;Aucun;1.68
+2024-03-03 21:35;Étiquetage;131;6.8;6.6;Mauvais alignement (0.8%);2.34
+2024-03-03 21:40;Étiquetage;132;7.3;6.5;Bulles d'air (2%);2.55
+2024-03-03 21:45;Remplissage;123;6.4;6.6;Déformation (1%);2.2
+2024-03-03 21:50;Remplissage;148;5.0;5.5;Rayures (1%);1.63
+2024-03-03 21:55;Soufflage;115;6.4;8.2;Rayures (1%);2.22
+2024-03-03 22:00;Soufflage;114;5.1;5.5;Rayures (1%);2.54
+2024-03-03 22:05;Carottage;100;4.8;7.0;Déformation (1%);2.5
+2024-03-03 22:10;Soufflage;122;7.3;4.7;Bulles d'air (2%);2.94
+2024-03-03 22:15;Soufflage;138;5.5;5.2;Bulles d'air (2%);2.0
+2024-03-03 22:20;Carottage;115;5.8;5.3;Fuites (1.5%);2.56
+2024-03-03 22:25;Étiquetage;133;6.5;6.2;Bulles d'air (2%);2.19
+2024-03-03 22:30;Carottage;146;7.4;5.9;Déformation (1%);1.95
+2024-03-03 22:35;Remplissage;119;6.0;5.0;Mauvais alignement (0.8%);1.67
+2024-03-03 22:40;Carottage;117;5.7;8.3;Rayures (1%);2.1
+2024-03-03 22:45;Étiquetage;135;6.6;6.5;Aucun;2.43
+2024-03-03 22:50;Remplissage;117;7.4;6.7;Mauvais alignement (0.8%);2.87
+2024-03-03 22:55;Étiquetage;103;4.7;7.9;Rayures (1%);1.54
+2024-03-03 23:00;Étiquetage;100;7.1;5.4;Bulles d'air (2%);1.75
+2024-03-03 23:05;Carottage;143;7.4;4.9;Bulles d'air (2%);2.08
+2024-03-03 23:10;Remplissage;141;5.3;6.3;Aucun;1.99
+2024-03-03 23:15;Étiquetage;132;5.3;7.7;Fuites (1.5%);2.81
+2024-03-03 23:20;Carottage;120;6.3;5.8;Bulles d'air (2%);1.98
+2024-03-03 23:25;Carottage;150;5.8;5.4;Fuites (1.5%);2.76
+2024-03-03 23:30;Étiquetage;140;5.8;8.4;Aucun;2.76
+2024-03-03 23:35;Étiquetage;111;5.6;7.2;Rayures (1%);1.23
+2024-03-03 23:40;Remplissage;105;6.8;4.5;Déformation (1%);1.77
+2024-03-03 23:45;Remplissage;118;5.3;5.0;Aucun;2.29
+2024-03-03 23:50;Carottage;137;7.3;6.3;Rayures (1%);2.36
+2024-03-03 23:55;Carottage;135;5.4;8.5;Rayures (1%);1.19
+2024-03-04 00:00;Remplissage;117;5.4;7.1;Aucun;2.32
+2024-03-04 00:05;Remplissage;107;5.5;5.5;Bulles d'air (2%);2.63
+2024-03-04 00:10;Remplissage;126;5.8;5.5;Rayures (1%);2.87
+2024-03-04 00:15;Soufflage;139;6.2;5.9;Aucun;2.49
+2024-03-04 00:20;Carottage;136;5.8;7.2;Fuites (1.5%);2.84
+2024-03-04 00:25;Remplissage;102;7.2;4.9;Rayures (1%);1.16
+2024-03-04 00:30;Étiquetage;149;6.4;6.5;Fuites (1.5%);1.95
+2024-03-04 00:35;Carottage;125;6.0;5.9;Déformation (1%);1.42
+2024-03-04 00:40;Soufflage;116;6.3;7.9;Mauvais alignement (0.8%);1.19
+2024-03-04 00:45;Remplissage;138;6.3;6.6;Déformation (1%);2.01
+2024-03-04 00:50;Remplissage;145;6.1;8.3;Aucun;1.26
+2024-03-04 00:55;Carottage;122;7.0;7.7;Rayures (1%);1.21
+2024-03-04 01:00;Soufflage;136;4.8;8.1;Rayures (1%);1.77
+2024-03-04 01:05;Carottage;120;7.1;7.8;Rayures (1%);1.9
+2024-03-04 01:10;Remplissage;133;7.0;5.4;Déformation (1%);1.68
+2024-03-04 01:15;Étiquetage;103;5.9;5.7;Rayures (1%);1.31
+2024-03-04 01:20;Étiquetage;118;6.1;7.9;Bulles d'air (2%);1.54
+2024-03-04 01:25;Carottage;124;5.5;7.5;Déformation (1%);2.65
+2024-03-04 01:30;Remplissage;103;6.4;7.3;Déformation (1%);1.79
+2024-03-04 01:35;Remplissage;138;5.5;8.0;Bulles d'air (2%);2.44
+2024-03-04 01:40;Carottage;137;6.6;8.1;Aucun;1.46
+2024-03-04 01:45;Remplissage;142;4.9;4.6;Rayures (1%);1.41
+2024-03-04 01:50;Étiquetage;145;6.2;7.2;Déformation (1%);2.72
+2024-03-04 01:55;Soufflage;131;6.2;6.7;Fuites (1.5%);2.98
+2024-03-04 02:00;Étiquetage;147;7.0;6.4;Déformation (1%);2.16
+2024-03-04 02:05;Remplissage;107;6.1;6.5;Fuites (1.5%);2.79
+2024-03-04 02:10;Carottage;150;4.7;6.9;Aucun;1.54
+2024-03-04 02:15;Étiquetage;121;5.0;7.5;Mauvais alignement (0.8%);1.03
+2024-03-04 02:20;Carottage;101;5.8;7.5;Déformation (1%);2.99
+2024-03-04 02:25;Remplissage;126;4.7;5.8;Bulles d'air (2%);2.89
+2024-03-04 02:30;Carottage;142;5.5;6.2;Déformation (1%);2.15
+2024-03-04 02:35;Carottage;119;6.0;6.6;Déformation (1%);1.5
+2024-03-04 02:40;Soufflage;102;6.4;6.4;Aucun;1.82
+2024-03-04 02:45;Soufflage;141;6.5;7.2;Mauvais alignement (0.8%);1.29
+2024-03-04 02:50;Soufflage;101;6.7;5.5;Déformation (1%);2.05
+2024-03-04 02:55;Carottage;134;7.0;6.2;Déformation (1%);1.22
+2024-03-04 03:00;Soufflage;136;4.8;7.3;Aucun;2.56
+2024-03-04 03:05;Étiquetage;123;6.0;6.3;Fuites (1.5%);2.19
+2024-03-04 03:10;Remplissage;123;6.4;6.5;Fuites (1.5%);1.0
+2024-03-04 03:15;Étiquetage;107;4.7;4.9;Bulles d'air (2%);1.68
+2024-03-04 03:20;Carottage;106;6.7;4.8;Aucun;2.94
+2024-03-04 03:25;Carottage;108;6.9;7.9;Déformation (1%);1.92
+2024-03-04 03:30;Carottage;114;5.3;6.3;Bulles d'air (2%);2.81
+2024-03-04 03:35;Étiquetage;111;6.9;7.6;Mauvais alignement (0.8%);1.56
+2024-03-04 03:40;Étiquetage;122;7.4;8.1;Déformation (1%);2.87
+2024-03-04 03:45;Étiquetage;129;7.3;8.1;Fuites (1.5%);2.58
+2024-03-04 03:50;Carottage;104;6.3;5.1;Mauvais alignement (0.8%);1.18
+2024-03-04 03:55;Étiquetage;147;7.4;6.2;Rayures (1%);2.09
+2024-03-04 04:00;Étiquetage;132;6.7;6.9;Bulles d'air (2%);1.16
+2024-03-04 04:05;Remplissage;119;4.8;6.1;Mauvais alignement (0.8%);2.39
+2024-03-04 04:10;Étiquetage;132;6.3;4.9;Déformation (1%);1.76
+2024-03-04 04:15;Étiquetage;111;5.5;7.5;Fuites (1.5%);2.8
+2024-03-04 04:20;Étiquetage;138;6.1;8.2;Aucun;2.52
+2024-03-04 04:25;Étiquetage;104;7.3;7.2;Déformation (1%);1.02
+2024-03-04 04:30;Soufflage;107;5.5;6.2;Rayures (1%);2.89
+2024-03-04 04:35;Soufflage;102;4.7;5.1;Fuites (1.5%);1.77
+2024-03-04 04:40;Remplissage;125;4.7;7.7;Déformation (1%);2.57
+2024-03-04 04:45;Soufflage;142;6.3;7.9;Déformation (1%);2.74
+2024-03-04 04:50;Carottage;104;7.4;5.2;Mauvais alignement (0.8%);2.9
+2024-03-04 04:55;Remplissage;119;5.2;7.7;Aucun;2.69
+2024-03-04 05:00;Remplissage;125;7.5;6.4;Bulles d'air (2%);2.98
+2024-03-04 05:05;Carottage;133;5.9;5.3;Aucun;2.85
+2024-03-04 05:10;Remplissage;150;4.9;8.3;Mauvais alignement (0.8%);1.38
+2024-03-04 05:15;Soufflage;143;6.2;7.5;Fuites (1.5%);2.21
+2024-03-04 05:20;Étiquetage;146;6.2;6.1;Rayures (1%);1.46
+2024-03-04 05:25;Remplissage;135;5.6;5.6;Bulles d'air (2%);1.38
+2024-03-04 05:30;Étiquetage;150;4.6;5.6;Rayures (1%);1.56
+2024-03-04 05:35;Soufflage;132;5.0;7.5;Mauvais alignement (0.8%);1.53
+2024-03-04 05:40;Remplissage;120;4.8;5.9;Aucun;2.06
+2024-03-04 05:45;Carottage;128;6.4;7.5;Aucun;1.86
+2024-03-04 05:50;Carottage;103;6.4;5.2;Aucun;1.63
+2024-03-04 05:55;Carottage;114;6.3;5.9;Rayures (1%);1.89
+2024-03-04 06:00;Soufflage;114;5.4;7.6;Déformation (1%);2.59
+2024-03-04 06:05;Carottage;145;5.8;6.5;Déformation (1%);1.6
+2024-03-04 06:10;Étiquetage;143;5.5;5.7;Déformation (1%);2.69
+2024-03-04 06:15;Remplissage;145;6.0;5.2;Aucun;2.35
+2024-03-04 06:20;Étiquetage;150;6.2;5.8;Mauvais alignement (0.8%);1.91
+2024-03-04 06:25;Carottage;127;5.2;5.6;Rayures (1%);2.25
+2024-03-04 06:30;Remplissage;144;6.1;6.2;Aucun;2.84
+2024-03-04 06:35;Carottage;106;6.7;7.4;Mauvais alignement (0.8%);1.14
+2024-03-04 06:40;Soufflage;103;5.4;6.0;Déformation (1%);1.74
+2024-03-04 06:45;Carottage;122;4.6;5.9;Mauvais alignement (0.8%);1.83
+2024-03-04 06:50;Étiquetage;133;7.4;8.4;Aucun;2.63
+2024-03-04 06:55;Étiquetage;112;7.2;5.6;Bulles d'air (2%);2.86
+2024-03-04 07:00;Étiquetage;128;6.6;8.2;Fuites (1.5%);1.91
+2024-03-04 07:05;Étiquetage;140;6.2;6.8;Mauvais alignement (0.8%);1.06
+2024-03-04 07:10;Étiquetage;123;6.4;5.3;Bulles d'air (2%);2.2
+2024-03-04 07:15;Remplissage;117;4.8;5.6;Aucun;2.89
+2024-03-04 07:20;Carottage;107;6.7;8.0;Déformation (1%);2.67
+2024-03-04 07:25;Soufflage;144;5.3;7.2;Déformation (1%);1.03
+2024-03-04 07:30;Remplissage;145;5.4;6.5;Mauvais alignement (0.8%);1.8
+2024-03-04 07:35;Étiquetage;100;6.8;6.5;Rayures (1%);1.86
+2024-03-04 07:40;Remplissage;109;5.2;6.0;Aucun;1.98
+2024-03-04 07:45;Remplissage;149;5.1;5.3;Fuites (1.5%);1.19
+2024-03-04 07:50;Carottage;108;4.7;5.2;Déformation (1%);1.16
+2024-03-04 07:55;Soufflage;100;5.4;7.9;Déformation (1%);1.18
+2024-03-04 08:00;Soufflage;114;5.0;7.3;Aucun;1.33
+2024-03-04 08:05;Soufflage;117;7.4;4.8;Rayures (1%);2.38
+2024-03-04 08:10;Carottage;139;7.2;7.0;Déformation (1%);2.42
+2024-03-04 08:15;Remplissage;139;4.8;4.6;Rayures (1%);2.94
+2024-03-04 08:20;Remplissage;147;5.6;7.1;Rayures (1%);2.54
+2024-03-04 08:25;Remplissage;117;7.3;7.6;Aucun;1.97
+2024-03-04 08:30;Remplissage;126;6.6;6.1;Fuites (1.5%);2.39
+2024-03-04 08:35;Remplissage;118;6.6;4.8;Déformation (1%);2.07
+2024-03-04 08:40;Remplissage;131;7.1;4.7;Aucun;1.06
+2024-03-04 08:45;Soufflage;102;5.9;8.2;Déformation (1%);1.67
+2024-03-04 08:50;Étiquetage;122;4.5;6.2;Mauvais alignement (0.8%);1.47
+2024-03-04 08:55;Carottage;149;7.5;8.4;Mauvais alignement (0.8%);2.61
+2024-03-04 09:00;Remplissage;133;5.4;7.9;Mauvais alignement (0.8%);1.89
+2024-03-04 09:05;Remplissage;139;5.6;6.5;Bulles d'air (2%);1.46
+2024-03-04 09:10;Étiquetage;104;5.1;6.1;Fuites (1.5%);1.66
+2024-03-04 09:15;Étiquetage;136;5.8;7.9;Déformation (1%);2.68
+2024-03-04 09:20;Soufflage;139;7.1;7.3;Mauvais alignement (0.8%);2.55
+2024-03-04 09:25;Soufflage;108;5.4;5.9;Rayures (1%);1.08
+2024-03-04 09:30;Étiquetage;128;5.8;8.1;Bulles d'air (2%);1.64
+2024-03-04 09:35;Soufflage;113;6.5;7.5;Déformation (1%);2.84
+2024-03-04 09:40;Soufflage;139;5.4;4.6;Mauvais alignement (0.8%);1.2
+2024-03-04 09:45;Remplissage;141;6.8;7.1;Mauvais alignement (0.8%);1.85
+2024-03-04 09:50;Étiquetage;144;4.8;6.1;Rayures (1%);1.95
+2024-03-04 09:55;Remplissage;138;5.9;6.3;Fuites (1.5%);2.12
+2024-03-04 10:00;Soufflage;121;5.8;7.6;Aucun;1.1
+2024-03-04 10:05;Étiquetage;103;6.1;6.2;Mauvais alignement (0.8%);2.57
+2024-03-04 10:10;Étiquetage;144;6.3;6.6;Aucun;2.58
+2024-03-04 10:15;Carottage;149;5.6;7.9;Aucun;2.96
+2024-03-04 10:20;Étiquetage;110;7.3;5.5;Mauvais alignement (0.8%);2.58
+2024-03-04 10:25;Étiquetage;113;4.6;4.6;Fuites (1.5%);1.04
+2024-03-04 10:30;Soufflage;112;6.4;5.2;Déformation (1%);2.81
+2024-03-04 10:35;Étiquetage;123;5.4;6.5;Déformation (1%);1.76
+2024-03-04 10:40;Carottage;113;6.0;6.4;Déformation (1%);1.26
+2024-03-04 10:45;Carottage;124;7.1;8.5;Aucun;1.69
+2024-03-04 10:50;Étiquetage;101;7.1;5.9;Aucun;2.4
+2024-03-04 10:55;Remplissage;105;6.6;7.4;Aucun;2.51
+2024-03-04 11:00;Étiquetage;128;4.8;8.1;Mauvais alignement (0.8%);1.87
+2024-03-04 11:05;Soufflage;115;7.3;6.9;Déformation (1%);1.16
+2024-03-04 11:10;Soufflage;149;5.4;5.9;Aucun;1.39
+2024-03-04 11:15;Remplissage;109;5.2;6.0;Déformation (1%);2.76
+2024-03-04 11:20;Soufflage;139;5.2;6.8;Bulles d'air (2%);1.62
+2024-03-04 11:25;Carottage;138;5.5;5.3;Aucun;1.89
+2024-03-04 11:30;Étiquetage;104;6.1;7.4;Mauvais alignement (0.8%);2.76
+2024-03-04 11:35;Carottage;127;6.1;6.3;Mauvais alignement (0.8%);2.51
+2024-03-04 11:40;Carottage;109;6.1;5.8;Fuites (1.5%);2.41
+2024-03-04 11:45;Carottage;146;6.7;8.5;Rayures (1%);1.7
+2024-03-04 11:50;Étiquetage;122;6.1;5.2;Mauvais alignement (0.8%);1.63
+2024-03-04 11:55;Carottage;132;5.4;6.4;Fuites (1.5%);2.69
+2024-03-04 12:00;Carottage;146;6.4;7.0;Déformation (1%);1.34
+2024-03-04 12:05;Étiquetage;101;6.4;6.9;Déformation (1%);2.61
+2024-03-04 12:10;Remplissage;123;5.8;8.1;Déformation (1%);1.63
+2024-03-04 12:15;Soufflage;131;7.1;4.7;Bulles d'air (2%);1.36
+2024-03-04 12:20;Carottage;110;6.8;8.2;Fuites (1.5%);2.94
+2024-03-04 12:25;Carottage;136;5.8;7.8;Mauvais alignement (0.8%);2.36
+2024-03-04 12:30;Remplissage;140;7.2;4.6;Aucun;2.75
+2024-03-04 12:35;Remplissage;101;4.5;6.0;Fuites (1.5%);2.79
+2024-03-04 12:40;Carottage;114;7.3;6.0;Déformation (1%);1.91
+2024-03-04 12:45;Remplissage;134;4.9;7.5;Rayures (1%);2.57
+2024-03-04 12:50;Soufflage;150;5.1;5.3;Déformation (1%);1.53
+2024-03-04 12:55;Étiquetage;100;7.1;6.3;Rayures (1%);2.22
+2024-03-04 13:00;Étiquetage;100;7.2;7.1;Mauvais alignement (0.8%);2.92
+2024-03-04 13:05;Remplissage;144;4.8;8.3;Fuites (1.5%);2.75
+2024-03-04 13:10;Étiquetage;118;6.1;6.2;Mauvais alignement (0.8%);2.17
+2024-03-04 13:15;Étiquetage;123;5.8;6.8;Bulles d'air (2%);2.83
+2024-03-04 13:20;Carottage;130;7.3;8.3;Bulles d'air (2%);1.12
+2024-03-04 13:25;Étiquetage;135;7.1;7.9;Déformation (1%);1.66
+2024-03-04 13:30;Carottage;144;5.2;8.3;Bulles d'air (2%);1.27
+2024-03-04 13:35;Soufflage;139;6.8;4.9;Rayures (1%);1.11
+2024-03-04 13:40;Étiquetage;101;5.3;7.9;Aucun;1.07
+2024-03-04 13:45;Carottage;101;5.8;4.9;Déformation (1%);2.1
+2024-03-04 13:50;Remplissage;114;6.8;7.0;Déformation (1%);1.98
+2024-03-04 13:55;Soufflage;120;7.3;8.3;Fuites (1.5%);1.78
+2024-03-04 14:00;Soufflage;142;6.9;8.2;Mauvais alignement (0.8%);1.46
+2024-03-04 14:05;Soufflage;102;4.8;5.9;Rayures (1%);2.63
+2024-03-04 14:10;Étiquetage;117;6.1;6.4;Déformation (1%);2.8
+2024-03-04 14:15;Remplissage;140;6.7;6.4;Fuites (1.5%);1.97
+2024-03-04 14:20;Remplissage;142;6.5;7.7;Fuites (1.5%);1.09
+2024-03-04 14:25;Remplissage;122;5.5;4.9;Bulles d'air (2%);1.74
+2024-03-04 14:30;Soufflage;125;6.3;5.3;Déformation (1%);2.42
+2024-03-04 14:35;Remplissage;150;5.5;8.1;Fuites (1.5%);1.66
+2024-03-04 14:40;Carottage;106;5.6;5.0;Déformation (1%);2.17
+2024-03-04 14:45;Étiquetage;149;7.0;8.4;Aucun;2.69
+2024-03-04 14:50;Carottage;105;5.8;7.6;Bulles d'air (2%);2.61
+2024-03-04 14:55;Carottage;110;6.8;7.8;Rayures (1%);2.76
+2024-03-04 15:00;Soufflage;140;4.8;6.5;Rayures (1%);1.46
+2024-03-04 15:05;Carottage;108;6.1;6.8;Mauvais alignement (0.8%);1.6
+2024-03-04 15:10;Carottage;129;6.5;6.5;Mauvais alignement (0.8%);1.64
+2024-03-04 15:15;Étiquetage;145;4.7;8.2;Fuites (1.5%);2.18
+2024-03-04 15:20;Remplissage;145;5.3;5.8;Aucun;1.58
+2024-03-04 15:25;Remplissage;115;4.7;5.1;Bulles d'air (2%);1.31
+2024-03-04 15:30;Remplissage;122;6.8;8.0;Fuites (1.5%);1.29
+2024-03-04 15:35;Remplissage;109;7.2;4.7;Aucun;2.7
+2024-03-04 15:40;Soufflage;126;5.3;4.8;Rayures (1%);1.56
+2024-03-04 15:45;Remplissage;110;7.0;7.8;Déformation (1%);2.16
+2024-03-04 15:50;Soufflage;119;6.0;5.8;Fuites (1.5%);1.6
+2024-03-04 15:55;Étiquetage;131;4.6;6.2;Rayures (1%);2.86
+2024-03-04 16:00;Remplissage;102;4.8;7.6;Rayures (1%);2.82
+2024-03-04 16:05;Soufflage;104;5.6;7.8;Bulles d'air (2%);1.39
+2024-03-04 16:10;Soufflage;101;6.7;6.2;Mauvais alignement (0.8%);2.78
+2024-03-04 16:15;Soufflage;142;6.6;6.6;Bulles d'air (2%);1.7
+2024-03-04 16:20;Remplissage;126;5.0;5.7;Fuites (1.5%);1.87
+2024-03-04 16:25;Carottage;147;4.6;7.7;Bulles d'air (2%);2.08
+2024-03-04 16:30;Carottage;137;5.8;7.4;Mauvais alignement (0.8%);1.9
+2024-03-04 16:35;Étiquetage;114;6.7;5.6;Rayures (1%);2.16
+2024-03-04 16:40;Carottage;137;4.9;5.2;Fuites (1.5%);2.5
+2024-03-04 16:45;Carottage;140;7.3;5.8;Aucun;2.68
+2024-03-04 16:50;Étiquetage;108;4.9;7.6;Aucun;2.12
+2024-03-04 16:55;Remplissage;128;6.6;6.8;Bulles d'air (2%);2.64
+2024-03-04 17:00;Soufflage;118;7.0;6.0;Rayures (1%);2.92
+2024-03-04 17:05;Carottage;141;6.2;7.4;Mauvais alignement (0.8%);2.04
+2024-03-04 17:10;Remplissage;133;6.0;6.5;Rayures (1%);1.61
+2024-03-04 17:15;Étiquetage;142;6.5;5.9;Fuites (1.5%);1.2
+2024-03-04 17:20;Remplissage;150;7.0;6.1;Rayures (1%);1.13
+2024-03-04 17:25;Remplissage;150;5.0;5.8;Bulles d'air (2%);2.32
+2024-03-04 17:30;Remplissage;127;7.0;5.4;Fuites (1.5%);2.37
+2024-03-04 17:35;Étiquetage;119;5.6;7.0;Aucun;2.81
+2024-03-04 17:40;Étiquetage;110;6.2;5.3;Bulles d'air (2%);2.74
+2024-03-04 17:45;Étiquetage;107;7.0;8.3;Rayures (1%);1.79
+2024-03-04 17:50;Remplissage;106;5.1;7.4;Bulles d'air (2%);1.47
+2024-03-04 17:55;Remplissage;125;5.3;7.0;Aucun;2.47
+2024-03-04 18:00;Carottage;136;6.8;7.1;Déformation (1%);1.55
+2024-03-04 18:05;Étiquetage;108;6.6;4.7;Aucun;1.03
+2024-03-04 18:10;Carottage;119;5.0;6.0;Aucun;2.63
+2024-03-04 18:15;Remplissage;138;6.2;6.0;Fuites (1.5%);2.87
+2024-03-04 18:20;Remplissage;130;6.3;6.9;Aucun;1.71
+2024-03-04 18:25;Soufflage;140;6.7;4.8;Bulles d'air (2%);1.23
+2024-03-04 18:30;Carottage;106;4.9;5.2;Mauvais alignement (0.8%);1.48
+2024-03-04 18:35;Étiquetage;115;7.1;6.8;Déformation (1%);1.44
+2024-03-04 18:40;Carottage;125;6.8;4.9;Rayures (1%);2.63
+2024-03-04 18:45;Carottage;143;4.6;5.3;Déformation (1%);2.34
+2024-03-04 18:50;Étiquetage;131;4.8;6.0;Déformation (1%);1.22
+2024-03-04 18:55;Remplissage;105;4.9;6.1;Aucun;1.31
+2024-03-04 19:00;Remplissage;139;5.2;7.4;Mauvais alignement (0.8%);2.14
+2024-03-04 19:05;Remplissage;118;5.8;5.3;Fuites (1.5%);1.4
+2024-03-04 19:10;Soufflage;113;6.0;5.3;Rayures (1%);2.71
+2024-03-04 19:15;Soufflage;122;6.2;6.0;Mauvais alignement (0.8%);2.81
