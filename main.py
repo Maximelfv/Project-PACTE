@@ -4,6 +4,8 @@ from src.components.layout import body_layout, header_layout
 from src.components.teste import teste_section
 from src.components import ids
 
+from src.components.graph import barre_horizontale, calendrier, camenber, histobar
+
 def main() -> None:
     app = Dash()
     app.title = "Projet PACTE - Tableau de bord"
@@ -14,6 +16,12 @@ def main() -> None:
             header_layout(app),
             body_layout(app),
             teste_section(app),
+            histobar.render(app, "Carottage"),
+            barre_horizontale.render(app, "Carottage"),
+            camenber.render(app, "Carottage"),
+            calendrier.render(app, "Carottage"),
+
+
         ]
     )
     """"
@@ -32,7 +40,7 @@ def main() -> None:
         ]
     )
     """
-    app.run()
+    app.run_server(debug=True)
 
 
 if __name__ == "__main__":

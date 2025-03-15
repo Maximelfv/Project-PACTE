@@ -1,6 +1,5 @@
 from dash import Dash, html, dcc
 import plotly.express as px 
-
 import pandas as pd
 
 from src.components import ids
@@ -22,7 +21,7 @@ def render(app: Dash, machine: str) -> html.Div:
         className="MachineDropDown",
         children=[
             dcc.Graph(
-                    figure=px.bar(df, x="date", y="taux de production")
+                    figure=px.bar(df, x="date", y="taux de production", orientation="h")
                 )
         ]
     )

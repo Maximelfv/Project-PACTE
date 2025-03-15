@@ -18,11 +18,12 @@ def render(app: Dash, machine: str) -> html.Div:
 
     df=pd.DataFrame({"date":X, "taux de production":Y})
 
+
     return html.Div(
         className="MachineDropDown",
         children=[
             dcc.Graph(
-                    figure=px.bar(df, x="date", y="taux de production")
+                    figure=px.pie(df, names="date", values="taux de production")
                 )
         ]
     )
