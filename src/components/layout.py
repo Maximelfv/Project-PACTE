@@ -40,25 +40,28 @@ def menu_layout(app: Dash) -> html.Div:
                     html.Li(
                         children=[
                             html.Span(
+                                ids.MACHINE1,
                                 id=ids.MACHINE1,
                                 n_clicks=0,
-                                children="Machine 1"),
+                                ),
                         ]
                     ),
                     html.Li(
                         children=[
                             html.Span(
+                                ids.MACHINE2,
                                 id=ids.MACHINE2,
                                 n_clicks=0,
-                                children="Machine 2"),
+                                ),
                         ]
                     ),
                     html.Li(
                         children=[
                             html.Span(
+                                ids.MACHINE3,
                                 id=ids.MACHINE3,
                                 n_clicks=0,
-                                children="Machine 3"),
+                                ),
                         ]
                     )
                 ]
@@ -73,9 +76,9 @@ def interface_layout(app: Dash) -> html.Div:
         id=ids.INTERFACE_LAYOUT,
         className="app-interface",
         children=[
-            interface_title.render(app, "machine teste"),
-            interface_global_infos.render(app, "machine teste"),
-            interface_graphs.render(app, "machine teste"),
+            interface_title.render(app, "Remplissage"),
+            interface_global_infos.render(app, "Remplissage"),
+            interface_graphs.render(app, "Remplissage"),
             
         ]
     )

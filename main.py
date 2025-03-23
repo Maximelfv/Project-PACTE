@@ -22,8 +22,7 @@ def main() -> None:
             barre_horizontale.render(app, "Carottage"),
             camenber.render(app, "Carottage"),
             calendrier.render(app, "Carottage"),
-
-
+            
         ]
     )
 

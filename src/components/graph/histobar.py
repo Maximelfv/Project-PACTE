@@ -22,7 +22,9 @@ def render(app: Dash, machine: str) -> html.Div:
         className="MachineDropDown",
         children=[
             dcc.Graph(
-                    figure=px.bar(df, x="date", y="taux de production")
+                    figure=px.bar(df, x="date", y="taux de production"),
+                    style={"width": "300px", "height": "300px"} 
+
                 )
         ]
     )

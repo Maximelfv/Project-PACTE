@@ -21,7 +21,8 @@ def render(app: Dash, machine: str) -> html.Div:
         className="MachineDropDown",
         children=[
             dcc.Graph(
-                    figure=px.bar(df, x="date", y="taux de production", orientation="h")
+                    figure=px.bar(df, x="date", y="taux de production", orientation="h"),
+                    style={"width": "300px", "height": "300px"} 
                 )
         ]
     )

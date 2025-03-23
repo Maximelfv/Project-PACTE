@@ -13,9 +13,9 @@ APP_MENU = "app-menu"
 
 # Menu ids
 
-MACHINE1 = "machine1"
-MACHINE2 = "machine2"
-MACHINE3 = "machine3"
+MACHINE1 = "Carottage"
+MACHINE2 = "Soufflage"
+MACHINE3 = "Remplissage"
 
 
 
