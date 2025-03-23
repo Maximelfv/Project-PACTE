@@ -16,6 +16,7 @@ APP_MENU = "app-menu"
 MACHINE1 = "Carottage"
 MACHINE2 = "Soufflage"
 MACHINE3 = "Remplissage"
+MACHINE4 = "Étiquetage"
 
 
 

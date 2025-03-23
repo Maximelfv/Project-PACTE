@@ -1,13 +1,13 @@
 body {
     background-color: turquoise;
     font-family: Arial, sans-serif;
-    margin: 1px 1px 1px 1px;
-    padding: 1px 1px 1px 1px;
+    margin: 0;
+    padding: 0;
 }
 
 div{
-    margin: 5px;
-    padding: 5px;
+    margin: 0;
+    padding: 0;
 }
 
 /*                 Partie Python                   */
@@ -18,7 +18,7 @@ div{
 
 
 .app-header{
-    background-color: purple;
+    background-color: #18534F;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto;
@@ -39,7 +39,7 @@ div{
 
 
 .app-body{
-    background-color: yellow;
+    background-color: #FEEAA1;
     display: flex;
     justify-content: flex-start;
     min-height: 600px;
@@ -49,7 +49,7 @@ div{
 /* Style du menu */
 
 .app-menu{
-    background-color: blue;
+    background-color: #226D68;
     width: 10%;
 }
 
@@ -66,7 +66,11 @@ div{
 }
 
 .app-menu ul li{
-    background-color: darkblue;
+    background-color: #ECF8F6;
+    width: 100px;
+    border-radius: 30px;
+    height: 20px;
+    text-align: center;
 }
 
 .app-menu a{
@@ -78,35 +82,43 @@ div{
 .app-interface{
     display: flex;
     flex-direction: column;
-    background-color: green;
+    background-color: #FEEAA1;
     width: 90%;
+    margin: 5px;
 }
 
 .interface-title{
-    background-color: orange;
+    background-color: #D6955B;
     display: flex;
     justify-content: center;
+    margin: 5px;
+    border-radius: 30px;
 }
 
 
 .interface-global-information{
-    background-color: orange;
+    background-color: #D6955B;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    margin: 5px;
+    border-radius: 30px;
 }
 
 
 .interface-graph{
-    background-color: orange;
+    background-color: #D6955B;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     flex-grow: 1;
+    margin: 5px;
+    padding: 5px;
+    border-radius:  10px;
 }
 
 .interface-graph h4{
-    background-color: red;
+    background-color: #ECF8F6;
 }
 
 

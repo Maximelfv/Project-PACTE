@@ -63,6 +63,15 @@ def menu_layout(app: Dash) -> html.Div:
                                 n_clicks=0,
                                 ),
                         ]
+                    ),
+                    html.Li(
+                        children=[
+                            html.Span(
+                                ids.MACHINE4,
+                                id=ids.MACHINE4,
+                                n_clicks=0,
+                                ),
+                        ]
                     )
                 ]
             )
