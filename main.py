@@ -4,6 +4,8 @@ from src.components.layout import body_layout, header_layout
 from src.components.teste import teste_section
 from src.components import ids
 
+from src.components.callbacks import register_callbacks
+
 from src.components.graph import barre_horizontale, calendrier, camenber, histobar
 
 def main() -> None:
@@ -24,22 +26,10 @@ def main() -> None:
 
         ]
     )
-    """"
-    app.layout = html.Header(
-        className="Body",
-        children=[
-            html.H1(app.title),
-            html.Hr(),
-            html.Div(
-                children=[
-                    menu_layout(app),
-                    app_div_layout(app)
-                ]
-                
-            )
-        ]
-    )
-    """
+
+    # Enregistre tous les callbacks
+    register_callbacks(app)
+    
     app.run_server(debug=True)
 
 
