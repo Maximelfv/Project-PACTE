@@ -10,15 +10,36 @@ def render(app: Dash, machine: str) -> dcc.Graph:
     Y = ld.taux_prod(machine)
     X = ld.date(machine)
 
-    l = min(len(X),min(Y))
+    l = min(len(X),len(Y))
 
     X,Y=X[:l],Y[:l]
 
-    df=pd.DataFrame({"date":X, "taux de production":Y})
+    df=pd.DataFrame({
+        "Date":X,
+        "Taux de production":Y
+        })
+    
+    fig = px.bar(
+        df,
+        x="Taux de production",
+        y="Date",
+        orientation="h",
+        title=f"Taux de production - {machine}"
+    )
+    fig.update_traces(
+        texttemplate='%{x}',
+        textposition='outside',
+        marker_color='orange'
+    )
+    fig.update_layout(
+        xaxis_tickangle=-45,
+        plot_bgcolor="#f9f9f9",
+        margin={"t": 30, "b": 30, "l": 40, "r": 10}
+    )
 
     return  dcc.Graph(
-                    figure=px.bar(df, x="date", y="taux de production", orientation="h"),
-                    style={"width": "300px", "height": "300px"} 
+                    figure=fig,
+                    style={"width": "500px", "height": "400px"} 
                 )
         
     
