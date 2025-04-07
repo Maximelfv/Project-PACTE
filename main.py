@@ -6,7 +6,7 @@ from src.components import ids
 
 from src.components.callbacks import register_callbacks
 
-from src.components.graph import barre_horizontale, calendrier, camenber, histobar
+from src.components.graph import barre_horizontale, calendrier, histobar,camember
 
 def main() -> None:
     app = Dash()
@@ -20,7 +20,7 @@ def main() -> None:
             teste_section(app),
             histobar.render(app, "Carottage"),
             barre_horizontale.render(app, "Carottage"),
-            camenber.render(app, "Carottage"),
+            camember.render(app, "Carottage"),
             calendrier.render(app, "Carottage"),
             
         ]

@@ -5,7 +5,7 @@ import pandas as pd
 from src.components import ids
 from src.components import Lecture_données as ld
 
-def render(app: Dash, machine: str) -> dcc.Graph:
+def render(app: Dash, machine: str) -> html.Div:
     
     Y = ld.taux_prod(machine)
     X = ld.date(machine)
@@ -37,9 +37,12 @@ def render(app: Dash, machine: str) -> dcc.Graph:
         margin={"t": 30, "b": 30, "l": 40, "r": 10}
     )
 
-    return  dcc.Graph(
+    return  html.Div(
+                className="barre-horizontale",
+                children=dcc.Graph(
                     figure=fig,
                     style={"width": "500px", "height": "400px"} 
                 )
+            )
         
     

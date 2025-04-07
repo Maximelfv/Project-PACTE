@@ -29,7 +29,10 @@ def render(app: Dash, machine: str) -> dcc.Graph:
         margin={"t": 30, "b": 30, "l": 40, "r": 10}
     )
 
-    return dcc.Graph(
-        figure=fig,
-        style={"width": "400px", "height": "400px"}
+    return html.Div(
+        className="histobar",
+        children=dcc.Graph(
+            figure=fig,
+            style={"width": "400px", "height": "400px"}
+        )
     )

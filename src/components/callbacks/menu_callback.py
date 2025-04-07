@@ -10,9 +10,10 @@ def register_menu_callbacks(app):
         Output(ids.INTERFACE_LAYOUT, "children"),
         Input(ids.MACHINE1, "n_clicks"),
         Input(ids.MACHINE2, "n_clicks"),
-        Input(ids.MACHINE3, "n_clicks"),         
+        Input(ids.MACHINE3, "n_clicks"), 
+        Input(ids.MACHINE4, "n_clicks"),        
     )
-    def user_info(n1: int, n2: int, n3: int) -> html.Div:
+    def user_info(n1: int, n2: int, n3: int, n4:int) -> html.Div:
         ctx = dash.callback_context  # Permet de voir quel élément a déclenché le callback
         if not ctx.triggered:
             return "Cliquez sur une machine pour voir ses informations."

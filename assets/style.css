@@ -69,8 +69,13 @@ div{
     background-color: #ECF8F6;
     width: 100px;
     border-radius: 30px;
-    height: 20px;
-    text-align: center;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 5px black, -2px -2px 5px grey;
+    border: 1px solid #ccc;
+
 }
 
 .app-menu a{
@@ -93,6 +98,8 @@ div{
     justify-content: center;
     margin: 5px;
     border-radius: 30px;
+    box-shadow: 2px 5px 10px rgba(0,0,0,0.1);
+    border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 
@@ -103,6 +110,8 @@ div{
     justify-content: space-evenly;
     margin: 5px;
     border-radius: 30px;
+    box-shadow: 2px 5px 10px rgba(0,0,0,0.1);
+    border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 
@@ -121,7 +130,38 @@ div{
     background-color: #ECF8F6;
 }
 
+.barre-horizontale{
+    border-radius: 30px;
+    display: flex;
+    box-shadow: 2px 2px 5px black, -2px -2px 5px grey;
+    border: 1px solid #ccc;
+    justify-content: center;
+    background-color: #ECF8F6;
+    margin: 5px;
+    padding: 5px;
+}
 
+.camember{
+    border-radius: 30px;
+    display: flex;
+    box-shadow: 2px 2px 5px black, -2px -2px 5px grey;
+    border: 1px solid #ccc;
+    justify-content: center;
+    background-color: #ECF8F6;
+    margin: 5px;
+    padding: 5px;
+}
+
+.histobar{
+    border-radius: 30px;
+    display: flex;
+    box-shadow: 2px 2px 5px black, -2px -2px 5px grey;
+    border: 1px solid #ccc;
+    justify-content: center;
+    background-color: #ECF8F6;
+    margin: 5px;
+    padding: 5px;
+}
 
 
 
