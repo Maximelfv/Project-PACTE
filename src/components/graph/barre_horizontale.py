@@ -34,15 +34,27 @@ def render(app: Dash, machine: str) -> html.Div:
     fig.update_layout(
         xaxis_tickangle=-45,
         plot_bgcolor="#f9f9f9",
-        margin={"t": 30, "b": 30, "l": 40, "r": 10}
+        paper_bgcolor="rgba(0,0,0,0)",
+        xaxis_title="Taux (u/min)",
+        yaxis_title="",
+        margin={"t": 10, "b": 30, "l": 60, "r": 10},
+        height=350
     )
+    
 
-    return  html.Div(
-                className="barre-horizontale",
-                children=dcc.Graph(
-                    figure=fig,
-                    style={"width": "500px", "height": "400px"} 
-                )
+    return html.Div(
+        className="graph-card",
+        children=[
+            html.Div("📊 Taux de production", className="card-title"),
+            dcc.Graph(
+                figure=fig,
+                config={"displayModeBar": False},  # retire la barre plotly en haut à droite
+                className="graph-container"
             )
+        ]
+    )
         
+
+    
+
     
