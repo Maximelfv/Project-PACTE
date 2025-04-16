@@ -118,6 +118,3 @@ def infos_graph(machine, donnee, timing,date):
         df_groupe = df_filtre.groupby("Heure")[donnee].mean().reset_index()
 
         return df_groupe
-
-
-print(infos_graph("Carottage", "Taux de production (u/min)", "jour", "2024-3-1"))
