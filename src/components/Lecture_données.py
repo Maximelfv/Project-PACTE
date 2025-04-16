@@ -16,12 +16,20 @@ types_machines=df["Machine"].unique()
 
 dico_machines={machine: df[df["Machine"] == machine].to_dict(orient="records") for machine in types_machines}
 
+def type_machines():
+    return types_machines
+
+def type_donnees():
+    return df.columns.tolist()
 
 def date (machine):
      return df["Horodatage"].str.split(" ").str[0].unique().tolist()
 
 def heure(machine):
      return df["Horodatage"].str.split(" ").str[1].unique().tolist()
+
+def horodatage(machine):
+    return [dico["Horodatage"] for dico in dico_machines[machine]]
 
 def taux_prod(machine):
     return [dico["Taux de production (u/min)"] for dico in dico_machines[machine]]
@@ -69,4 +77,4 @@ def infos(date, heure, machine, donnee):
 
 
 
-print (infos("2024-03-01", "09:35", "Carottage", "Température (°C)"))
+print (heure("Soufflage"))
