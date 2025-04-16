@@ -1,13 +1,14 @@
 body {
     background-color: turquoise;
     font-family: Arial, sans-serif;
-    margin: 1px 1px 1px 1px;
-    padding: 1px 1px 1px 1px;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 div{
-    margin: 5px;
-    padding: 5px;
+    margin: 0;
+    padding: 0;
 }
 
 /*                 Partie Python                   */
@@ -18,7 +19,7 @@ div{
 
 
 .app-header{
-    background-color: purple;
+    background-color: #18534F;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto;
@@ -39,7 +40,7 @@ div{
 
 
 .app-body{
-    background-color: yellow;
+    background-color: #FEEAA1;
     display: flex;
     justify-content: flex-start;
     min-height: 600px;
@@ -49,7 +50,7 @@ div{
 /* Style du menu */
 
 .app-menu{
-    background-color: blue;
+    background-color: #226D68;
     width: 10%;
 }
 
@@ -66,7 +67,16 @@ div{
 }
 
 .app-menu ul li{
-    background-color: darkblue;
+    background-color: #ECF8F6;
+    width: 100px;
+    border-radius: 30px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 5px black, -2px -2px 5px grey;
+    border: 1px solid #ccc;
+
 }
 
 .app-menu a{
@@ -78,38 +88,83 @@ div{
 .app-interface{
     display: flex;
     flex-direction: column;
-    background-color: green;
+    background-color: #FEEAA1;
     width: 90%;
+    margin: 5px;
 }
 
 .interface-title{
-    background-color: orange;
+    background-color: #D6955B;
     display: flex;
     justify-content: center;
+    margin: 5px;
+    border-radius: 30px;
+    box-shadow: 2px 5px 10px rgba(0,0,0,0.1);
+    border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 
 .interface-global-information{
-    background-color: orange;
+    background-color: #D6955B;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 5px;
+    border-radius: 30px;
+    box-shadow: 2px 5px 10px rgba(0,0,0,0.1);
+    border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 
 .interface-graph{
-    background-color: orange;
+    background-color: #D6955B;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     flex-grow: 1;
+    margin: 5px;
+    padding: 5px;
+    border-radius:  10px;
 }
 
 .interface-graph h4{
-    background-color: red;
+    background-color: #ECF8F6;
 }
 
+.barre-horizontale{
+    border-radius: 30px;
+    display: flex;
+    box-shadow: 2px 2px 5px black, -2px -2px 5px grey;
+    border: 1px solid #ccc;
+    justify-content: center;
+    background-color: #ECF8F6;
+    margin: 5px;
+    padding: 5px;
+}
 
+.camember{
+    border-radius: 30px;
+    display: flex;
+    box-shadow: 2px 2px 5px black, -2px -2px 5px grey;
+    border: 1px solid #ccc;
+    justify-content: center;
+    background-color: #ECF8F6;
+    margin: 5px;
+    padding: 5px;
+}
+
+.histobar{
+    border-radius: 30px;
+    display: flex;
+    box-shadow: 2px 2px 5px black, -2px -2px 5px grey;
+    border: 1px solid #ccc;
+    justify-content: center;
+    background-color: #ECF8F6;
+    margin: 5px;
+    padding: 5px;
+}
 
 
 
@@ -125,5 +180,133 @@ div{
 
 .MachineDropDown{
     background-color: black;
+    width: 150px;
+    height: 150px;
 
 }
+
+
+/* Calendrier */
+.calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);  /* 7 colonnes pour les jours de la semaine */
+    gap: 5px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.day-button {
+    background-color: orange;
+    border: none;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.day-button:hover {
+    background-color: darkorange;
+}
+
+
+
+
+/*  ===========================================================
+    ================= TESTE CHATGPT ===========================
+    ===========================================================
+*/
+/* ================= Partie global information ================== */
+
+/* Thème clair */
+:root {
+    --bg-color: #f5f5f5;
+    --card-bg: white;
+    --text-color: #333;
+    --accent-color: #2a9d8f;
+}
+
+/* Thème sombre automatique */
+/*
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-color: #121212;
+        --card-bg: #1e1e1e;
+        --text-color: #f5f5f5;
+        --accent-color: #00bfa6;
+    }
+}
+*/
+
+.card {
+    background-color: var(--card-bg);
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 220px;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+}
+
+.card h5 {
+    margin: 10px 0 5px;
+    font-size: 1rem;
+    color: var(--text-color);
+}
+
+.card .valeur {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: var(--accent-color);
+    margin-top: 5px;
+}
+
+.icon {
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+
+/* ================== Fin partie global information ============= */
+
+
+
+
+/* ================== Partie graphique ========================= */
+.graph-card {
+    background-color: var(--card-bg);
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    width: 100%;
+    max-width: 600px;
+    transition: 0.3s ease-in-out;
+}
+
+.graph-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: var(--text-color);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.graph-container {
+    width: 100%;
+}
+
+/* ================== Fin partie graphique ==================== */

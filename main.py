@@ -4,6 +4,10 @@ from src.components.layout import body_layout, header_layout
 from src.components.teste import teste_section
 from src.components import ids
 
+from src.components.callbacks import register_callbacks
+
+from src.components.graph import barre_horizontale, calendrier, histobar,camember
+
 def main() -> None:
     app = Dash()
     app.title = "Projet PACTE - Tableau de bord"
@@ -14,25 +18,18 @@ def main() -> None:
             header_layout(app),
             body_layout(app),
             teste_section(app),
+            histobar.render(app, "Carottage"),
+            barre_horizontale.render(app, "Carottage"),
+            camember.render(app, "Carottage"),
+            calendrier.render(app, "Carottage"),
+            
         ]
     )
-    """"
-    app.layout = html.Header(
-        className="Body",
-        children=[
-            html.H1(app.title),
-            html.Hr(),
-            html.Div(
-                children=[
-                    menu_layout(app),
-                    app_div_layout(app)
-                ]
-                
-            )
-        ]
-    )
-    """
-    app.run()
+
+    # Enregistre tous les callbacks
+    register_callbacks(app)
+    
+    app.run_server(debug=True)
 
 
 if __name__ == "__main__":
