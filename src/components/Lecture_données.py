@@ -1,7 +1,7 @@
 import pandas as pd
 import sys
 import re
-#test de ma branche
+from datetime import datetime, timedelta
 
 try:
     df=pd.read_csv("data/Database.csv", sep=";")
@@ -77,4 +77,44 @@ def infos(date, heure, machine, donnee):
 
 
 
-print (heure("Soufflage"))
+def infos_graph(machine, donnee, timing,date):
+    date = datetime.strptime(date, "%Y-%m-%d")
+    
+    df_temp = df.copy()
+    
+    df_temp["Horodatage"] = pd.to_datetime(df_temp["Horodatage"], format="%Y-%m-%d %H:%M")
+    df_temp["Année"] = df_temp["Horodatage"].dt.year
+    df_temp["Mois"] = df_temp["Horodatage"].dt.month
+    df_temp["Jour"] = df_temp["Horodatage"].dt.day
+    df_temp["Heure"] = df_temp["Horodatage"].dt.hour
+
+    annee = date.year
+    mois = date.month
+    jour = date.day
+
+    if timing=="annee":
+
+        filtre = (df_temp["Machine"] == machine) & (df_temp["Année"] == annee)
+        df_filtre = df_temp[filtre]
+        
+        df_groupe = df_filtre.groupby("Mois")[donnee].mean().reset_index()
+
+        return df_groupe
+
+    elif timing=="mois":
+        
+        filtre = (df_temp["Machine"]== machine)& (df_temp["Année"]==annee) & (df_temp["Mois"]==mois)
+        df_filtre = df_temp[filtre]
+
+        df_groupe = df_filtre.groupby("Jour")[donnee].mean().reset_index()
+
+        return df_groupe
+    
+    elif timing=="jour":
+        
+        filtre = (df_temp["Machine"]== machine)& (df_temp["Année"]==annee) & (df_temp["Mois"]==mois) & (df_temp["Jour"]==jour)
+        df_filtre = df_temp[filtre]
+
+        df_groupe = df_filtre.groupby("Heure")[donnee].mean().reset_index()
+
+        return df_groupe

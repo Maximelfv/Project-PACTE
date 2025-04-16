@@ -1,3 +1,4 @@
+
 Horodatage;Machine;Taux de production (u/min);Température (°C);Pression (bar);Défauts détectés;Énergie Consommée (kWh)
 2024-03-01 08:00;Carottage;113;4.9;6.2;Rayures (1%);2.77
 2024-03-01 08:05;Carottage;148;7.0;4.5;Fuites (1.5%);1.13
