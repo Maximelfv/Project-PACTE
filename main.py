@@ -1,12 +1,12 @@
 from dash import Dash, html
+from dash import dcc
 
 from src.components.layout import body_layout, header_layout
-from src.components.teste import teste_section
 from src.components import ids
 
 from src.components.callbacks import register_callbacks
 
-from src.components.graph import barre_horizontale, calendrier, histobar,camember
+from src.components.graph import barre_horizontale, histobar,camember
 
 def main() -> None:
     app = Dash()
@@ -15,18 +15,15 @@ def main() -> None:
         id=ids.PROJET_PACTE,
         className= "PACTE-Projet",
         children=[
+            dcc.Store(id="machine-store", data=ids.MACHINE1),
+            dcc.Store(id="radio-store", data="Taux de production (u/min)"),
             header_layout(app),
-            body_layout(app),
-            teste_section(app),
-            histobar.render(app, "Carottage"),
-            barre_horizontale.render(app, "Carottage"),
-            camember.render(app, "Carottage"),
-            calendrier.render(app, "Carottage"),
-            
+            body_layout(app),           
         ]
     )
 
     # Enregistre tous les callbacks
+    
     register_callbacks(app)
     
     app.run_server(debug=True)
