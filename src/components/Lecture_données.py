@@ -78,3 +78,8 @@ def infos(date, heure, machine, donnee):
 
 
 print (heure("Soufflage"))
+
+
+
+
+#trucmachin
