@@ -7,6 +7,6 @@ def render(app: Dash, machine: str) -> html.Div:
         id=ids.INTERFACE_TITLE,
         className="interface-title",
         children=[
-            html.H3(machine)
+            html.H1(machine)
         ]
     )
