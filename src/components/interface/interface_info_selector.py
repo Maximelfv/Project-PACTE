@@ -9,11 +9,10 @@ def render(app: Dash) -> html.Div:
             dcc.RadioItems(
                 id="info-radio",
                 options=[
-                    {"label": "⚙️ Production", "value": "prod"},
-                    {"label": "🌡️ Température", "value": "temp"},
-                    {"label": "⚡ Consommation", "value": "conso"},
-                    {"label": "📈 Pression", "value": "pression"},
-                    {"label": "🚨 Défauts", "value": "defauts"},
+                    {"label": "⚙️ Production", "value": "Taux de production (u/min)"},
+                    {"label": "🌡️ Température", "value": "Température (°C)"},
+                    {"label": "⚡ Consommation", "value": "Énergie Consommée (kWh)"},
+                    {"label": "📈 Pression", "value": "Pression (bar)"},
                 ],
                 value="prod",
                 labelStyle={"display": "flex", "align-items": "center"},

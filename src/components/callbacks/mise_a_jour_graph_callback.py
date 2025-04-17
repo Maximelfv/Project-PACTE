@@ -9,7 +9,7 @@ from datetime import datetime
 def register_mise_a_jour_graph_callbacks(app: Dash) -> tuple[str, html.Div]:
     """Enregistre les callbacks pour les éléments de type RadioItems."""
     @app.callback(
-        Output(ids.INTERFACE_GRAPHS, "children"),
+        Output(ids.INTERFACE_LAYOUT, "children"),
         Input("machine-store", "data"),
         Input("radio-store", "data"),
         Input("timing-store", "data"),
