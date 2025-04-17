@@ -8,17 +8,26 @@ from src.components import ids
 from src.components import Lecture_données as ld
 
 def render(app: Dash, machine: str, donnee: str, timing: str, date: datetime) -> dcc.Graph:
+    df_graph = ld.infos_graph(machine, donnee, timing, date)
 
-    Y = ld.taux_prod(machine)
-    X = ld.date(machine)
+    X = df_graph.iloc[:, 0] 
+    Y = df_graph.iloc[:, 1] 
 
-    l = min(len(X),len(Y))
 
-    X,Y=X[:l],Y[:l]
+   
 
-    df=pd.DataFrame({"date":X, "taux de production":Y})
+    df = pd.DataFrame({
+        "label": X,
+        "valeur": Y
+    })
 
-    fig = px.bar(df, x="date", y="taux de production", title=f"Taux de production - {machine}")
+
+    fig = px.bar(
+        df,
+        x="label",
+        y="valeur",
+        title=f"{donnee} - {machine}")
+
     fig.update_traces(
         texttemplate='%{y}',
         textposition='outside',
