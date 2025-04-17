@@ -19,12 +19,17 @@ start_time = datetime(2024, 3, 1, 8, 0)
  
 # Génération des 1000 lignes de données
 data_rows = []
-for i in range(1000):
+for i in range(3000):
     horodatage = start_time + timedelta(minutes=5 * i)  # Incrémentation de 5 minutes
     machine = random.choice(machines)
     taux_production = random.randint(100, 150)  # Unités/min
-    temperature = round(random.uniform(4.5, 7.5), 1)  # °C
-    pression = round(random.uniform(4.5, 8.5), 1)  # bar
+    if machine=="Soufflage":
+        temperature = round(random.uniform(100.0, 200.0), 1)  # °C
+        pression = round(random.uniform(4.5, 8.5), 1)  # bar
+    else:
+        temperature = round(random.uniform(4.5, 7.5), 1)  # °C
+        pression = 1  # bar
+
     defauts = random.choice(defauts_possibles)
     energie = round(random.uniform(1.0, 3.0), 2)  # kWh
  
