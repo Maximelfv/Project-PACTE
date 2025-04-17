@@ -1,7 +1,9 @@
 from dash import dcc, html
 from dash import Dash
 
-def render(app: Dash) -> html.Div:
+from datetime import datetime
+
+def render(app: Dash, date: datetime) -> html.Div:
     return html.Div(
         className="modern-date-picker-container",
         children=[
@@ -11,7 +13,8 @@ def render(app: Dash) -> html.Div:
                 display_format="DD/MM/YYYY",
                 placeholder="Choisir une date",
                 className="modern-date-picker",
-                style={"border": "none"}
+                style={"border": "none"},
+                date=date,
             ),
             html.Div(id="selected-date-output", className="date-output")
         ]

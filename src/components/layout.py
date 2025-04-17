@@ -87,7 +87,7 @@ def interface_layout(app: Dash) -> html.Div:
         className="app-interface",
         children=[
             interface_title.render(app, "Remplissage"),
-            interface_date_info.render(app, "jour"),
+            interface_date_info.render(app, "jour", today_test),
             interface_global_infos.render(app, "Remplissage"),
             interface_info_selector.render(app, "Taux de production (u/min)"),
             interface_graphs.render(app, "Remplissage", "Taux de production (u/min)", "jour", today_test),
