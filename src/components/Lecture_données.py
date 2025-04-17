@@ -77,7 +77,7 @@ def infos(date, heure, machine, donnee):
 
 
 
-def infos_graph(machine, donnee, timing,date):
+def infos_graph(machine, donnee, timing, date):
     
     
     df_temp = df.copy()

@@ -15,7 +15,7 @@ def register_timing_callbacks(app: Dash) -> html.Div:
         """Met à jour le graphique affiché en fonction de la valeur sélectionnée."""
         ctx = dash.callback_context
         if not ctx.triggered:
-            return "Taux de production (u/min)"
+            return "mois"
         
         # ctx.triggered = [{'prop_id': 'info-radio.value'}]
         clicked_id = ctx.triggered[0]["prop_id"].split(".")[0]

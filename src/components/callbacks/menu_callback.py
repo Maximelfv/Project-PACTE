@@ -16,7 +16,7 @@ def register_menu_callbacks(app: Dash):
     def user_info(n1: int, n2: int, n3: int, n4:int) -> None:
         ctx = dash.callback_context  # Permet de voir quel élément a déclenché le callback
         if not ctx.triggered:
-            return None, "Cliquez sur une machine pour voir ses informations."
+            return ids.MACHINE1
             #Avant de cliquer sur une machine → ctx.triggered = []
             #Après un clic sur "Machine 1" → ctx.triggered = [{'prop_id': 'machine1.n_clicks'}]
         

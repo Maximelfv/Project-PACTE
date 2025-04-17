@@ -23,6 +23,8 @@ def register_mise_a_jour_graph_callbacks(app: Dash) -> tuple[str, html.Div]:
         
         # ctx.triggered = [{'prop_id': 'info-radio.value'}]
         clicked_id = ctx.triggered[0]["prop_id"].split(".")[0]
+
+        date = datetime.strptime(date, "%Y-%m-%d")
         
         return [
             interface_title.render(app, machine),
