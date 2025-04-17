@@ -12,8 +12,8 @@ from src.components import Lecture_données as ld
 def render(app: Dash, machine: str, donnee: str, timing: str, date: datetime) -> dcc.Graph:
     df_graph = ld.infos_graph(machine, donnee, timing, date)
 
-    X = df_graph.iloc[:, 0]  # Mois, jour ou heure
-    Y = df_graph.iloc[:, 1]  # Valeurs numériques
+    X = df_graph.iloc[:, 0] 
+    Y = df_graph.iloc[:, 1] 
 
 
     df = pd.DataFrame({
