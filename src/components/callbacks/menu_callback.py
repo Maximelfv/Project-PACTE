@@ -13,7 +13,7 @@ def register_menu_callbacks(app: Dash):
         Input(ids.MACHINE3, "n_clicks"), 
         Input(ids.MACHINE4, "n_clicks"),        
     )
-    def user_info(n1: int, n2: int, n3: int, n4:int) -> None:
+    def user_info(n1: int, n2: int, n3: int, n4:int) -> str:
         ctx = dash.callback_context  # Permet de voir quel élément a déclenché le callback
         if not ctx.triggered:
             return ids.MACHINE1

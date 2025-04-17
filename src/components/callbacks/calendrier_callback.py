@@ -13,7 +13,7 @@ def register_calendrier_callbacks(app: Dash) -> str:
         Output("date-store", "data"),
         Input("custom-date-picker", "date"),
     )
-    def calendrier_info(value: str) -> html.Div:
+    def calendrier_info(value: str) -> str:
         """Met à jour le graphique affiché en fonction de la valeur sélectionnée."""
         ctx = dash.callback_context
         if not ctx.triggered:

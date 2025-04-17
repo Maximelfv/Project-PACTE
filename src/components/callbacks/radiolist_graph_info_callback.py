@@ -11,7 +11,7 @@ def register_radiolist_graph_info_callbacks(app: Dash) -> html.Div:
         Output("radio-store", "data"),
         Input("info-radio", "value")
     )
-    def graph_info(value: str) -> html.Div:
+    def graph_info(value: str) -> str:
         """Met à jour le graphique affiché en fonction de la valeur sélectionnée."""
         ctx = dash.callback_context
         if not ctx.triggered:
@@ -20,4 +20,4 @@ def register_radiolist_graph_info_callbacks(app: Dash) -> html.Div:
         # ctx.triggered = [{'prop_id': 'info-radio.value'}]
         clicked_id = ctx.triggered[0]["prop_id"].split(".")[0]
         
-        return value[0]
+        return value
