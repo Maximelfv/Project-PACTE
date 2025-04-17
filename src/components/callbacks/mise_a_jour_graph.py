@@ -1,0 +1,32 @@
+from dash import Output, Input, callback
+import dash
+from dash import Dash, html
+
+from src.components import ids
+from src.components.interface import interface_date_info, interface_global_infos, interface_info_selector, interface_graphs, interface_title
+
+def register_mise_a_jour_graph_callbacks(app: Dash) -> tuple[str, html.Div]:
+    """Enregistre les callbacks pour les éléments de type RadioItems."""
+    @app.callback(
+        Output(ids.INTERFACE_GRAPHS, "children"),
+        Input("radio-store", "data"),
+        Input("machine-store", "data"),
+        Input("timing-store", "data"),
+        Input("date-store", "data"),
+    )
+    def graph_page(machine: str, donnee: str, timing: str, date: str) -> html.Div:
+        """Met à jour le graphique affiché en fonction de la valeur sélectionnée."""
+        ctx = dash.callback_context
+        if not ctx.triggered:
+            return ""
+        
+        # ctx.triggered = [{'prop_id': 'info-radio.value'}]
+        clicked_id = ctx.triggered[0]["prop_id"].split(".")[0]
+        
+        return [
+            interface_title.render(app, machine, donnee, timing, date),
+            interface_date_info.render(app),
+            interface_global_infos.render(app, machine, donnee, timing, date),
+            interface_info_selector.render(app),
+            interface_graphs.render(app, machine, donnee, timing, date),
+        ]
