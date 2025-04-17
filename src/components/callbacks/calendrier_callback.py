@@ -25,4 +25,4 @@ def register_calendrier_callbacks(app: Dash) -> str:
         date = datetime.fromisoformat(date).date()
         date =  datetime.strptime(value, "%Y-%m-%d")
         
-        return  date
+        return  str(date)

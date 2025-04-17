@@ -18,7 +18,7 @@ def main() -> None:
             dcc.Store(id="machine-store", data=ids.MACHINE1),
             dcc.Store(id="radio-store", data="Taux de production (u/min)"),
             dcc.Store(id="timing-store", data="mois"),
-            dcc.Store(id="date-store", data=today_test),
+            dcc.Store(id="date-store", data=str(today_test)),
             header_layout(app),
             body_layout(app),           
         ]
