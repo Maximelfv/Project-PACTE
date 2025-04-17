@@ -28,8 +28,8 @@ def register_mise_a_jour_graph_callbacks(app: Dash) -> tuple[str, html.Div]:
         
         return [
             interface_title.render(app, machine),
-            interface_date_info.render(app),
+            interface_date_info.render(app, timing),
             interface_global_infos.render(app, machine),
-            interface_info_selector.render(app),
+            interface_info_selector.render(app, donnee),
             interface_graphs.render(app, machine, donnee, timing, date),
         ]

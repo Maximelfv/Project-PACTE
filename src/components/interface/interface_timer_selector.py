@@ -1,7 +1,7 @@
 from dash import html, dcc
 from dash import Dash
 
-def render(app: Dash) -> html.Div:
+def render(app: Dash, timing: str) -> html.Div:
     return html.Div(
         className="time-selector",
         children=[
@@ -13,7 +13,7 @@ def render(app: Dash) -> html.Div:
                     {"label": "🗓️ Mois", "value": "mois"},
                     {"label": "🗓️ Année", "value": "annee"},
                 ],
-                value="jour",  # Valeur par défaut
+                value=timing,  # Valeur par défaut
                 labelStyle={"display": "block"},
                 className="radio"
             ),

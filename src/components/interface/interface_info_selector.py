@@ -1,7 +1,7 @@
 from dash import html, dcc
 from dash import Dash
 
-def render(app: Dash) -> html.Div:
+def render(app: Dash, donnee: str) -> html.Div:
     return html.Div(
         className="info-selector",
         children=[
@@ -14,7 +14,7 @@ def render(app: Dash) -> html.Div:
                     {"label": "⚡ Consommation", "value": "Énergie Consommée (kWh)"},
                     {"label": "📈 Pression", "value": "Pression (bar)"},
                 ],
-                value="prod",
+                value=donnee,
                 labelStyle={"display": "flex", "align-items": "center"},
                 className="radio"
             ),
