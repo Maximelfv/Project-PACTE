@@ -4,6 +4,7 @@ import plotly.express as px
 from .graph import histobar
 from src.components import ids
 from src.components.interface import interface_title,interface_global_infos, interface_graphs, interface_date_info, interface_info_selector
+from src.components.calcul.today_informations import today
 
 def header_layout(app: Dash) -> html.Header:
     return html.Header(
@@ -89,7 +90,7 @@ def interface_layout(app: Dash) -> html.Div:
             interface_date_info.render(app),
             interface_global_infos.render(app, "Remplissage"),
             interface_info_selector.render(app),
-            interface_graphs.render(app, "Remplissage"),
+            interface_graphs.render(app, "Remplissage", "Taux de production (u/min)", "jour", today),
             
         ]
     )
