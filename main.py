@@ -6,7 +6,7 @@ from src.components import ids
 
 from src.components.callbacks import register_callbacks
 
-from src.components.graph import barre_horizontale, histobar,camember
+from src.components.calcul.today_informations import today
 
 def main() -> None:
     app = Dash()
@@ -17,6 +17,8 @@ def main() -> None:
         children=[
             dcc.Store(id="machine-store", data=ids.MACHINE1),
             dcc.Store(id="radio-store", data="Taux de production (u/min)"),
+            dcc.Store(id="date-store", data=str(today)),
+            dcc.Store(id="timing-store", data="month"),
             header_layout(app),
             body_layout(app),           
         ]

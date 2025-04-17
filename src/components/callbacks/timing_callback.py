@@ -5,13 +5,13 @@ from dash import Dash, html
 from src.components import ids
 from src.components.graph import barre_horizontale, histobar, camember
 
-def register_radiolist_graph_info_callbacks(app: Dash) -> html.Div:
+def register_timing_callbacks(app: Dash) -> html.Div:
     """Enregistre les callbacks pour les éléments de type RadioItems."""
     @app.callback(
-        Output("radio-store", "data"),
-        Input("info-radio", "value")
+        Output("timing-store", "data"),
+        Input("periode-radio", "value"),
     )
-    def graph_info(value: str) -> html.Div:
+    def timing_info(value: str) -> None:
         """Met à jour le graphique affiché en fonction de la valeur sélectionnée."""
         ctx = dash.callback_context
         if not ctx.triggered:
