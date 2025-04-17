@@ -13,16 +13,12 @@ def register_calendrier_callbacks(app: Dash) -> str:
         Output("date-store", "data"),
         Input("custom-date-picker", "date"),
     )
-    def calendrier_info(value: str) -> str:
-        """Met à jour le graphique affiché en fonction de la valeur sélectionnée."""
-        ctx = dash.callback_context
-        if not ctx.triggered:
-            return today_test
-        
-        # ctx.triggered = [{'prop_id': 'info-radio.value'}]
-        clicked_id = ctx.triggered[0]["prop_id"].split(".")[0]
+    def calendrier_info(value) -> str:
+        if not value or not isinstance(value, str):
+            return str(today_test)  # Valeur par défaut si rien n’est sélectionné
 
-        date = datetime.fromisoformat(date).date()
-        date =  datetime.strptime(value, "%Y-%m-%d")
-        
-        return  str(date)
+        try:
+            date = datetime.fromisoformat(value).date()
+            return str(date)
+        except ValueError:
+            return str(today_test)
