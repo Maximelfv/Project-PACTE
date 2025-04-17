@@ -78,7 +78,7 @@ def infos(date, heure, machine, donnee):
 
 
 def infos_graph(machine, donnee, timing,date):
-    date = datetime.strptime(date, "%Y-%m-%d")
+    
     
     df_temp = df.copy()
     
