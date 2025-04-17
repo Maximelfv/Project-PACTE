@@ -2,21 +2,33 @@ from dash import Dash, html, dcc
 import plotly.express as px 
 
 import pandas as pd
+from datetime import datetime
 
 from src.components import ids
 from src.components import Lecture_données as ld
 
-def render(app: Dash, machine: str) -> dcc.Graph:
 
-    Y = ld.taux_prod(machine)
-    X = ld.date(machine)
 
-    l = min(len(X),len(Y))
+def render(app: Dash, machine: str, donnee: str, timing: str, date: datetime) -> dcc.Graph:
+    df_graph = ld.infos_graph(machine, donnee, timing, date)
 
-    X,Y=X[:l],Y[:l]
+    X = df_graph.iloc[:, 0]  # Mois, jour ou heure
+    Y = df_graph.iloc[:, 1]  # Valeurs numériques
 
-    df=pd.DataFrame({"date":X, "taux de production":Y})
-    fig = px.pie(df, names="date", values="taux de production", title=f"Taux de production {machine}")
+
+    df = pd.DataFrame({
+        "label": X,
+        "valeur": Y
+    })
+
+    
+    fig = px.pie(
+        df,
+        names="label",
+        values="valeur",
+        title=f"{donnee}-{machine}"
+    )
+    
     fig.update_traces(
         textinfo='percent+label'  
     )
@@ -29,6 +41,7 @@ def render(app: Dash, machine: str) -> dcc.Graph:
         className="camember",
         children=dcc.Graph(
             figure=fig,
+            config={"displayModeBar": False},
             style={"width": "400px", "height": "400px"}
         )
     )

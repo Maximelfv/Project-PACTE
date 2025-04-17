@@ -1,7 +1,7 @@
 from dash import Dash, html, dcc
 import plotly.express as px 
 import pandas as pd
-from datetime import datetime, timedelta
+from datetime import datetime
 
 from src.components import ids
 from src.components import Lecture_données as ld
