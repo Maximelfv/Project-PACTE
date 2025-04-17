@@ -14,7 +14,7 @@ def render(app: Dash, machine: str) -> html.Div:
             html.Div([
                 html.Div("📈", className="icon"),
                 html.H5("Production annuelle"),
-                html.P(f"{prod_annuel(machine):,.2f} u/min", className="valeur")
+                html.P(f"{prod_annuel(machine):,.2f} unités", className="valeur")
             ], className="card"),
 
             html.Div([
