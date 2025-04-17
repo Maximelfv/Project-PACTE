@@ -10,7 +10,7 @@ def register_calendrier_callbacks(app: Dash) -> str:
     """Enregistre les callbacks pour les éléments de type RadioItems."""
     @app.callback(
         Output("date-store", "data"),
-        Input("custom-date-picker", "value"),
+        Input("custom-date-picker", "data"),
     )
     def calendrier_info(value: str) -> html.Div:
         """Met à jour le graphique affiché en fonction de la valeur sélectionnée."""

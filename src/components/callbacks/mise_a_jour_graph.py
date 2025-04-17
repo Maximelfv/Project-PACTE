@@ -10,8 +10,8 @@ def register_mise_a_jour_graph_callbacks(app: Dash) -> tuple[str, html.Div]:
     """Enregistre les callbacks pour les éléments de type RadioItems."""
     @app.callback(
         Output(ids.INTERFACE_GRAPHS, "children"),
-        Input("radio-store", "data"),
         Input("machine-store", "data"),
+        Input("radio-store", "data"),
         Input("timing-store", "data"),
         Input("date-store", "data"),
     )
@@ -25,9 +25,9 @@ def register_mise_a_jour_graph_callbacks(app: Dash) -> tuple[str, html.Div]:
         clicked_id = ctx.triggered[0]["prop_id"].split(".")[0]
         
         return [
-            interface_title.render(app, machine, donnee, timing, date),
+            interface_title.render(app, machine),
             interface_date_info.render(app),
-            interface_global_infos.render(app, machine, donnee, timing, date),
+            interface_global_infos.render(app, machine),
             interface_info_selector.render(app),
             interface_graphs.render(app, machine, donnee, timing, date),
         ]

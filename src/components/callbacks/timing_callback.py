@@ -20,4 +20,4 @@ def register_timing_callbacks(app: Dash) -> html.Div:
         # ctx.triggered = [{'prop_id': 'info-radio.value'}]
         clicked_id = ctx.triggered[0]["prop_id"].split(".")[0]
         
-        return value
+        return value[0]

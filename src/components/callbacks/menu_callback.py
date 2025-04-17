@@ -8,13 +8,12 @@ from src.components.interface import interface_global_infos,interface_graphs,int
 def register_menu_callbacks(app: Dash):
     @app.callback(
         Output("machine-store", "data"),
-        Output(ids.INTERFACE_LAYOUT, "children"),
         Input(ids.MACHINE1, "n_clicks"),
         Input(ids.MACHINE2, "n_clicks"),
         Input(ids.MACHINE3, "n_clicks"), 
         Input(ids.MACHINE4, "n_clicks"),        
     )
-    def user_info(n1: int, n2: int, n3: int, n4:int) -> html.Div:
+    def user_info(n1: int, n2: int, n3: int, n4:int) -> None:
         ctx = dash.callback_context  # Permet de voir quel élément a déclenché le callback
         if not ctx.triggered:
             return None, "Cliquez sur une machine pour voir ses informations."
@@ -23,10 +22,4 @@ def register_menu_callbacks(app: Dash):
         
         clicked_id = ctx.triggered[0]["prop_id"].split(".")[0]
 
-        return clicked_id, [
-            interface_title.render(app, clicked_id),
-            interface_date_info.render(app),
-            interface_global_infos.render(app, clicked_id),
-            interface_info_selector.render(app),
-            interface_graphs.render(app, clicked_id),  
-        ]
+        return clicked_id
