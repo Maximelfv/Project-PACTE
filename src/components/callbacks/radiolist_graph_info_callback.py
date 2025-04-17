@@ -8,11 +8,10 @@ from src.components.graph import barre_horizontale, histobar, camember
 def register_radiolist_graph_info_callbacks(app: Dash) -> html.Div:
     """Enregistre les callbacks pour les éléments de type RadioItems."""
     @app.callback(
-        Output(ids.INTERFACE_GRAPHS, "children"),
-        Input("radio-store", "data"),
-        Input("machine-store", "data"),
+        Output("radio-store", "data"),
+        Input("info-radio", "value")
     )
-    def graph_info(value1: str, value2: str) -> html.Div:
+    def graph_info(value: str) -> html.Div:
         """Met à jour le graphique affiché en fonction de la valeur sélectionnée."""
         ctx = dash.callback_context
         if not ctx.triggered:
@@ -21,9 +20,4 @@ def register_radiolist_graph_info_callbacks(app: Dash) -> html.Div:
         # ctx.triggered = [{'prop_id': 'info-radio.value'}]
         clicked_id = ctx.triggered[0]["prop_id"].split(".")[0]
         
-        return [
-            barre_horizontale.render(app, value2, value1),
-            camember.render(app, value2, value1),
-            histobar.render(app, value2, value1),
-            barre_horizontale.render(app, value2, value1), 
-        ]
+        return value
